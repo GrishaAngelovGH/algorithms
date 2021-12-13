@@ -1,0 +1,18 @@
+.pro-sidebar {
+    height: auto;
+    width: 220px;
+    min-width: 225px;
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+    background: #ffffff;
+    color: #000000;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {    
+    background-color: #ffffff;
+}
+
+.pro-sidebar .pro-menu a {
+    color:#000000;
+}
