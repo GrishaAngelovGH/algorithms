@@ -3,8 +3,8 @@ import { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 
-import WaveBackground from '../../WaveBackground'
 import TextArea from './TextArea'
+import WaveBackground from '../../WaveBackground'
 
 const rot13 = str => {
     const alphabet = [...'abcdefghijklmnopqrstuvwxyz']
@@ -28,10 +28,8 @@ const CaesarCipher = () => {
     }
 
     const handleSwap = () => {
-        const [s1, s2] = [encryptedWord, word]
-
-        setWord(s1)
-        setEncryptedWord(s2)
+        setWord(encryptedWord)
+        setEncryptedWord(word)
     }
 
     const handleReset = () => {
@@ -69,7 +67,8 @@ const CaesarCipher = () => {
                     </div>
 
                     <p className='text-white m-5'>
-                        The action of a Caesar cipher is to replace each plaintext letter with a different one a fixed number of places down the alphabet ( 13 in this case )
+                        The action of a Caesar cipher is to replace each plaintext letter
+                        with a different one a fixed number of places down the alphabet ( 13 in this case )
                     </p>
                 </div>
             </div>

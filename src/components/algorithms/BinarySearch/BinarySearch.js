@@ -12,9 +12,8 @@ const BinarySearch = () => {
     const [criteria, setCriteria] = useState('')
     const [label, setLabel] = useState({ title: '', success: false })
 
-
     const handleCriteriaInputChange = ({ target: { value } }) => {
-        setCriteria(parseInt(value))
+        !value.length ? setCriteria('') : setCriteria(parseInt(value))
     }
 
     const handleStepButtonClick = () => {
@@ -30,7 +29,10 @@ const BinarySearch = () => {
             setLabel({ title: 'Element is found!', success: true })
         }
 
-        const newElements = parseInt(criteria) < values[index] ? values.slice(0, index) : values.slice(index)
+        const newElements =
+            parseInt(criteria) < values[index] ?
+                values.slice(0, index) :
+                values.slice(index)
 
         setElements(newElements.sort((a, b) => a - b))
     }
@@ -70,8 +72,8 @@ const BinarySearch = () => {
                                 <FormControl
                                     type='number'
                                     min={1}
-                                    placeholder='Enter search criteria, ex: 3'
                                     value={criteria}
+                                    placeholder='Enter search criteria'
                                     onChange={handleCriteriaInputChange}
                                 />
                             </InputGroup>

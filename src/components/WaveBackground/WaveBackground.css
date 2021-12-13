@@ -87,5 +87,5 @@ animation: move-wave 3s;
 .wave-content {
   position: relative;
   z-index: 100;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }

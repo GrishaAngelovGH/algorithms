@@ -97,7 +97,7 @@ const QuickSort = () => {
 
     return (
         <WaveBackground>
-            <h1 className='text-center text-white'>QuickSort</h1>
+            <h1 className='text-center text-white'>Quick Sort</h1>
 
             {
                 Object.values(elements).map((element, i) => {

@@ -108,12 +108,26 @@ const BinaryTree = () => {
         <WaveBackground>
             <div className='row g-0 justify-content-center text-center p-3'>
                 <div className='col-md-12'>
-                    <h3 className='text-white'>Binary Search Algorithm</h3>
+                    <h3 className='text-white'>Binary Tree Traversal Algorithms</h3>
 
                     <ButtonGroup size='lg' className='mb-2'>
-                        <Button onClick={handleBFSButtonClick} disabled={bfsActive || dfsActive}>Breadth First Search</Button>
-                        <Button onClick={handleDFSButtonClick} disabled={bfsActive || dfsActive}>Depth First Search</Button>
-                        <Button onClick={handleResetButtonClick}>Reset</Button>
+                        <Button
+                            onClick={handleBFSButtonClick}
+                            disabled={bfsActive || dfsActive}
+                        >
+                            Breadth First Search
+                        </Button>
+                        <Button
+                            onClick={handleDFSButtonClick}
+                            disabled={bfsActive || dfsActive}
+                        >
+                            Depth First Search
+                        </Button>
+                        <Button
+                            onClick={handleResetButtonClick}
+                        >
+                            Reset
+                        </Button>
                     </ButtonGroup>
 
                     <div className='row justify-content-center'>

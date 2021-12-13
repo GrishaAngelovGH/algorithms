@@ -11,11 +11,11 @@ const TextArea = ({ value, disabled, onChange }) => {
         <Fragment>
             <form className='paper' method='get' action=''>
                 <textarea
-                    placeholder={!disabled ? 'Enter text' : ''}
                     className='text'
                     name='text'
                     value={value}
                     disabled={disabled}
+                    placeholder={!disabled ? 'Enter text' : ''}
                     onChange={handleTextAreaChange}
                 >
                 </textarea>

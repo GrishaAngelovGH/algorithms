@@ -51,8 +51,8 @@ const LinearSearch = () => {
                                 <FormControl
                                     type='number'
                                     min={1}
-                                    placeholder='Enter search criteria'
                                     value={criteria}
+                                    placeholder='Enter search criteria'
                                     onChange={handleCriteriaInputChange}
                                 />
                             </InputGroup>

@@ -42,7 +42,6 @@ const BubbleSort = () => {
         swappedElements = [...swappedElements, [arr[i], arr[j]]]
     }
 
-
     const bubbleSort = () => {
         for (let i = 0; i < array.length; i++) {
             for (let j = 0; j < array.length - i - 1; j++) {
@@ -68,7 +67,7 @@ const BubbleSort = () => {
 
     return (
         <WaveBackground>
-            <h1 className='text-center text-white'>BubbleSort</h1>
+            <h1 className='text-center text-white'>Bubble Sort</h1>
 
             {
                 Object.values(elements).map((element, i) => (

@@ -13,9 +13,6 @@
     resize:none;
     line-height:40px;
     padding-left:100px;
-    /* padding-right:100px; */
-    /* padding-top:45px; */
-    /* padding-bottom:34px; */
     background-image:url(./images/lines.png), url(./images/paper.png);
     background-repeat:repeat-y, repeat;
     -webkit-border-radius:12px;

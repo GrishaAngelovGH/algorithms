@@ -73,15 +73,15 @@ const FloodFill = () => {
 
     return (
         <WaveBackground>
-            <div className="row g-0 justify-content-center text-center p-3">
-                <div className="col-md-12">
+            <div className='row g-0 justify-content-center text-center p-3'>
+                <div className='col-md-12'>
                     <h3 className='text-white'>Flood Fill Algorithm</h3>
 
-                    <div className="row justify-content-center text-white">
+                    <div className='row justify-content-center text-white'>
                         <div className='col-md-6'>
                             {
                                 grid.map((row, rowIndex) => (
-                                    <div key={rowIndex} className="row justify-content-center">
+                                    <div key={rowIndex} className='row justify-content-center'>
                                         {
                                             row.map((v, colIndex) => {
 
@@ -108,8 +108,8 @@ const FloodFill = () => {
                         </div>
                     </div>
 
-                    <div className="row justify-content-center m-3">
-                        <div className="col-md-2">
+                    <div className='row justify-content-center m-3'>
+                        <div className='col-md-2'>
                             <ButtonGroup size='lg' className='mb-2'>
                                 <Button onClick={handleStep}>Step</Button>
                                 <Button onClick={handleReset}>Reset</Button>
@@ -117,9 +117,13 @@ const FloodFill = () => {
                         </div>
                     </div>
 
-                    <div className="row justify-content-center m-3">
-                        <div className="col-md-6">
-                            <h4 className='text-white'>Flood fill is an algorithm mainly used to determine a bounded area connected to a given node in a multi-dimensional array. It is a close concept to the bucket tool in paint programs.</h4>
+                    <div className='row justify-content-center m-3'>
+                        <div className='col-md-6'>
+                            <h4 className='text-white'>
+                                Flood fill is an algorithm mainly used to determine a bounded area connected
+                                to a given node in a multi-dimensional array.
+                                It is a close concept to the bucket tool in paint programs.
+                            </h4>
                         </div>
                     </div>
                 </div>
