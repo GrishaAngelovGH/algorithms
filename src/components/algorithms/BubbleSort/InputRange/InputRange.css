@@ -1,0 +1,21 @@
+:root{
+    --input-range-color: #198754;
+}
+
+.input-range__label{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.input-range__label--min, .input-range__label--max{
+    display: none;
+}
+
+.input-range__track .input-range__track--active{
+    background: var(--input-range-color);
+}
+
+.input-range__slider{
+    background: var(--input-range-color);
+    border: 1px solid var(--input-range-color);
+}
