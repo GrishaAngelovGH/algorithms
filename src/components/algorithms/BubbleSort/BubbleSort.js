@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import ToggleButton from 'react-bootstrap/ToggleButton'
 
@@ -6,51 +6,33 @@ import Legend from './Legend'
 import InputRange from './InputRange'
 import WaveBackground from '../../WaveBackground'
 
-const BubbleSort = () => {
-    const [step, setStep] = useState(0)
-    const [checked, setChecked] = useState(false)
+/*
+    Note: 
+    After swapping of two elements, swapped values are pushed to their corresponding array i.e. 'swappedElements'.
+    They will be colored in yellow on each step of visualization.
+    Then new subarray with all values (including swapped) is pushed to 'elements'.
+    In that way we have the following map:
 
-    const array = [5, 1, 4, 2, 3]
+    [[v1, v2, v3]] i.e. 'elements' <---> [[v1, v3]] i.e. 'swappedElements'
+    [[v1, v2, v3],[v4, v5, v6]] i.e. 'elements' <---> [[v1, v3], [v5, v6]] i.e. 'swappedElements'
+*/
+
+const BubbleSort = () => {
+    const arrayRef = useRef([5, 1, 4, 2, 3])
     const steps = 6
 
-    /*
-        Note: 
-        Operations 'swap' and 'appendToElements' are always one after another.
-        When we swap elements after the swap we push swapped values to their corresponding array i.e. swappedElements.
-        After that we perform 'appendToElements' and push new subarray with elements.
-        In that way we have the following map:
-
-        [[v1, v2, v3]] i.e. 'elements' <---> [[v1, v3]] i.e. 'swappedElements'
-        [[v1, v2, v3],[v4, v5, v6]] i.e. 'elements' <---> [[v1, v3], [v5, v6]] i.e. 'swappedElements'
-
-        That is used to color elements in yellow, if given value 'v' is in corresponding subarray 'swappedElements'
-        const isSwapped = v === swappedElements[i - 1][0] || v === swappedElements[i - 1][1]
-    */
-
-    // used only for visualization purpose
-    let elements = [[...array]]
-    let swappedElements = []
-
-    const appendToElements = (elements, arr) => [...elements, [...arr]]
-
-    const generateKey = data => `${data}_${new Date().getTime()}`
+    const [step, setStep] = useState(0)
+    const [checked, setChecked] = useState(false)
+    const [elements, setElements] = useState([[...arrayRef.current]])
+    const [swappedElements, setSwappedElements] = useState([])
 
     const swap = (arr, i, j) => {
         [arr[i], arr[j]] = [arr[j], arr[i]]
+        arrayRef.current = [...arr]
 
-        // add values of swapped elements, which will be colored in yellow
-        swappedElements = [...swappedElements, [arr[i], arr[j]]]
-    }
+        setSwappedElements(values => [...values, [arr[i], arr[j]]])
 
-    const bubbleSort = () => {
-        for (let i = 0; i < array.length; i++) {
-            for (let j = 0; j < array.length - i - 1; j++) {
-                if (array[j] > array[j + 1]) {
-                    swap(array, j, j + 1)
-                    elements = appendToElements(elements, array)
-                }
-            }
-        }
+        setElements(values => [...values, [...arr]])
     }
 
     const handleSlideChange = value => {
@@ -63,7 +45,15 @@ const BubbleSort = () => {
         setChecked(currentTarget.checked)
     }
 
-    bubbleSort()
+    useEffect(() => {
+        for (let i = 0; i < arrayRef.current.length; i++) {
+            for (let j = 0; j < arrayRef.current.length - i - 1; j++) {
+                if (arrayRef.current[j] > arrayRef.current[j + 1]) {
+                    swap(arrayRef.current, j, j + 1)
+                }
+            }
+        }
+    }, [])
 
     return (
         <WaveBackground>
@@ -72,30 +62,30 @@ const BubbleSort = () => {
             {
                 Object.values(elements).map((element, i) => (
                     <div
-                        key={generateKey(i)}
+                        key={i}
                         className='row g-0 justify-content-center text-center p-1 text-white fw-bold'
                     >
                         {
-                            Object.values(element).map(v => {
+                            Object.values(element).map((v, j) => {
                                 // skip coloring of first row of elements
                                 if (i > 0) {
-                                    const isSwapped = v === swappedElements[i - 1][0] || v === swappedElements[i - 1][1]
+                                    const isSwapped = swappedElements[i - 1].includes(v)
 
                                     // color all elements in yellow if toggle button is clicked
                                     // otherwise color elements in yellow on each step
-                                    const bgClass = !checked ?
-                                        (isSwapped && step === i ? 'bg-warning' : 'bg-success') :
-                                        (isSwapped ? 'bg-warning' : 'bg-success')
+                                    const bgClass = checked ?
+                                        (isSwapped ? 'bg-warning' : 'bg-success') :
+                                        (isSwapped && step === i ? 'bg-warning' : 'bg-success')
 
                                     return (
-                                        <div key={generateKey(v)} className={`col-md-1 mx-1 ${bgClass} rounded`}>
+                                        <div key={j} className={`col-md-1 mx-1 ${bgClass} rounded`}>
                                             {v}
                                         </div>
                                     )
                                 }
 
                                 return (
-                                    <div key={generateKey(v)} className='col-md-1 mx-1 bg-success rounded'>
+                                    <div key={j} className='col-md-1 mx-1 bg-success rounded'>
                                         {v}
                                     </div>
                                 )
@@ -109,8 +99,8 @@ const BubbleSort = () => {
                 <h3 className='text-white'>Final Result</h3>
 
                 {
-                    Object.values(elements)[elements.length - 1].map(v => (
-                        <div key={generateKey(v)} className='col-md-1 mx-1 bg-success rounded'>
+                    Object.values(elements)[elements.length - 1].map((v, i) => (
+                        <div key={i} className='col-md-1 mx-1 bg-success rounded'>
                             {v}
                         </div>
                     ))

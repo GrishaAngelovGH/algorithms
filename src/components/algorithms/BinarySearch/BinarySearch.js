@@ -34,7 +34,7 @@ const BinarySearch = () => {
                 values.slice(0, index) :
                 values.slice(index)
 
-        setElements(newElements.sort((a, b) => a - b))
+        setElements(newElements)
     }
 
     const handleRandomFillButtonClick = () => {
@@ -59,10 +59,8 @@ const BinarySearch = () => {
                     <div className='row justify-content-center'>
                         <div className='col-md-6'>
                             <InputGroup className='mb-3'>
-                                <FormControl
-                                    value={elements}
-                                    disabled={true}
-                                />
+                                <FormControl value={elements} disabled={true} />
+
                                 <Button onClick={handleRandomFillButtonClick}>
                                     Random Fill
                                 </Button>
@@ -70,10 +68,10 @@ const BinarySearch = () => {
 
                             <InputGroup className='mb-3'>
                                 <FormControl
-                                    type='number'
                                     min={1}
+                                    type={'number'}
                                     value={criteria}
-                                    placeholder='Enter search criteria'
+                                    placeholder={'Enter search criteria'}
                                     onChange={handleCriteriaInputChange}
                                 />
                             </InputGroup>
@@ -113,7 +111,6 @@ const BinarySearch = () => {
                                     </Alert>
                                 )
                             }
-
                         </div>
                     </div>
                 </div>

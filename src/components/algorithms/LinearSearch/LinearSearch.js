@@ -28,7 +28,7 @@ const LinearSearch = () => {
     const handleRandomFillButtonClick = () => {
         const newElements = new Array(10).fill(0).map(() => Math.floor(Math.random() * 100)).filter(v => v > 0)
 
-        setElements([...newElements])
+        setElements(newElements)
         setCurrentIndex(-1)
     }
 
@@ -63,14 +63,12 @@ const LinearSearch = () => {
                                         <div className='row justify-content-center'>
                                             {
                                                 elements.map((v, i) => {
-                                                    if (currentIndex >= 0 && v === elements[currentIndex]) {
-                                                        return (
-                                                            <div key={i} className='col-md-1 mx-1 bg-primary text-white rounded'>{v}</div>
-                                                        )
-                                                    }
+                                                    const boxColor = currentIndex >= 0 && v === elements[currentIndex] ? 'bg-primary' : 'bg-success'
 
                                                     return (
-                                                        <div key={i} className='col-md-1 mx-1 bg-success text-white rounded'>{v}</div>
+                                                        <div key={i} className={`col-md-1 mx-1 text-white rounded ${boxColor}`}>
+                                                            {v}
+                                                        </div>
                                                     )
                                                 })
                                             }

@@ -6,6 +6,17 @@ import Legend from './Legend'
 import InputRange from './InputRange'
 import WaveBackground from '../../WaveBackground'
 
+/*
+    Note: 
+    After swapping of two elements, swapped values are pushed to their corresponding array i.e. 'swappedElements'.
+    They will be colored in yellow on each step of visualization.
+    Then new subarray with all values (including swapped) is pushed to 'elements'.
+    In that way we have the following map:
+
+    [[v1, v2, v3]] i.e. 'elements' <---> [[v1, v3]] i.e. 'swappedElements'
+    [[v1, v2, v3],[v4, v5, v6]] i.e. 'elements' <---> [[v1, v3], [v5, v6]] i.e. 'swappedElements'
+*/
+
 const QuickSort = () => {
     const [step, setStep] = useState(0)
     const [checked, setChecked] = useState(false)
@@ -13,27 +24,11 @@ const QuickSort = () => {
     const array = [5, 1, 3, 2, 4]
     const steps = 6
 
-    /*
-        Note: 
-        Operations 'swap' and 'appendToElements' are always one after another.
-        When we swap elements after the swap we push swapped values to their corresponding array i.e. swappedElements.
-        After that we perform 'appendToElements' and push new subarray with elements.
-        In that way we have the following map:
-
-        [[v1, v2, v3]] i.e. 'elements' <---> [[v1, v3]] i.e. 'swappedElements'
-        [[v1, v2, v3],[v4, v5, v6]] i.e. 'elements' <---> [[v1, v3], [v5, v6]] i.e. 'swappedElements'
-
-        That is used to color elements in yellow, if given value 'v' is in corresponding subarray 'swappedElements'
-        const isSwapped = v === swappedElements[i - 1][0] || v === swappedElements[i - 1][1]
-    */
-
     // used only for visualization purpose
     let elements = [[...array]]
     let swappedElements = []
 
     const appendToElements = (elements, arr) => [...elements, [...arr]]
-
-    const generateKey = data => `${data}_${new Date().getTime()}`
 
     const swap = (arr, i, j) => {
         [arr[i], arr[j]] = [arr[j], arr[i]]
@@ -106,14 +101,14 @@ const QuickSort = () => {
                     if (i === Object.values(elements).length - 1) {
                         return (
                             <div
-                                key={generateKey(i)}
+                                key={i}
                                 className='row g-0 justify-content-center text-center p-3 text-white fw-bold'
                             >
                                 <h3 className='text-white'>Final Result</h3>
 
                                 {
-                                    Object.values(element).map(v => (
-                                        <div key={generateKey(v)} className='col-md-1 mx-1 bg-success rounded'>
+                                    Object.values(element).map((v, j) => (
+                                        <div key={j} className='col-md-1 mx-1 bg-success rounded'>
                                             {v}
                                         </div>
                                     ))
@@ -124,14 +119,14 @@ const QuickSort = () => {
 
                     return (
                         <div
-                            key={generateKey(i)}
+                            key={i}
                             className='row g-0 justify-content-center text-center p-1 text-white fw-bold'
                         >
                             {
-                                Object.values(element).map(v => {
+                                Object.values(element).map((v, k) => {
                                     // skip coloring of first row of elements
                                     if (i > 0) {
-                                        const isSwapped = v === swappedElements[i - 1][0] || v === swappedElements[i - 1][1]
+                                        const isSwapped = swappedElements[i - 1].includes(v)
 
                                         // color all elements in yellow if toggle button is clicked
                                         // otherwise color elements in yellow on each step
@@ -140,14 +135,14 @@ const QuickSort = () => {
                                             (isSwapped ? 'bg-warning' : 'bg-success')
 
                                         return (
-                                            <div key={generateKey(v)} className={`col-md-1 mx-1 ${bgClass} rounded`}>
+                                            <div key={k} className={`col-md-1 mx-1 ${bgClass} rounded`}>
                                                 {v}
                                             </div>
                                         )
                                     }
 
                                     return (
-                                        <div key={generateKey(v)} className='col-md-1 mx-1 bg-success rounded'>
+                                        <div key={k} className='col-md-1 mx-1 bg-success rounded'>
                                             {v}
                                         </div>
                                     )

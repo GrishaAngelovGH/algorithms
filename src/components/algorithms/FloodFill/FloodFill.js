@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import Button from 'react-bootstrap/Button'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
@@ -26,19 +26,19 @@ const FloodFill = () => {
 
     let visitedPositions = generateEmptyGrid()
 
-    const nextStep = (i, j) => {
+    const nextStepRef = useRef((i, j) => {
         if (visitedPositions[i][j] || grid[i][j] === '#') return
 
         visitedPositions[i][j] = true
 
-        setVisitedIndexes(prevState => [...prevState, [i, j]])
+        setVisitedIndexes(indexes => [...indexes, [i, j]])
 
-        nextStep(i, j)
-        nextStep(i + 1, j)
-        nextStep(i - 1, j)
-        nextStep(i, j + 1)
-        nextStep(i, j - 1)
-    }
+        nextStepRef.current(i, j)
+        nextStepRef.current(i + 1, j)
+        nextStepRef.current(i - 1, j)
+        nextStepRef.current(i, j + 1)
+        nextStepRef.current(i, j - 1)
+    })
 
     const handleStep = () => {
         const coords = visitedIndexes[currentIndex]
@@ -63,12 +63,11 @@ const FloodFill = () => {
 
         visitedPositions = generateEmptyGrid()
 
-        nextStep(4, 4)
+        nextStepRef.current(4, 4)
     }
 
     useEffect(() => {
-        nextStep(4, 4)
-        // eslint-disable-next-line
+        nextStepRef.current(4, 4)
     }, [])
 
     return (
