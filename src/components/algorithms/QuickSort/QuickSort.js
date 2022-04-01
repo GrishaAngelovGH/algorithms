@@ -1,8 +1,10 @@
 import { useState } from 'react'
 
+import Button from 'react-bootstrap/Button'
 import ToggleButton from 'react-bootstrap/ToggleButton'
 
 import Legend from './Legend'
+import StepsLog from './StepsLog'
 import InputRange from './InputRange'
 import WaveBackground from '../../WaveBackground'
 
@@ -20,6 +22,7 @@ import WaveBackground from '../../WaveBackground'
 const QuickSort = () => {
     const [step, setStep] = useState(0)
     const [checked, setChecked] = useState(false)
+    const [showLogs, setShowLogs] = useState(false)
 
     const array = [5, 1, 3, 2, 4]
     const steps = 6
@@ -86,6 +89,14 @@ const QuickSort = () => {
         currentTarget.checked ? setStep(steps) : setStep(0)
 
         setChecked(currentTarget.checked)
+    }
+
+    const handleLogsOpen = () => {
+        setShowLogs(true)
+    }
+
+    const handleLogsClose = () => {
+        setShowLogs(false)
     }
 
     quickSort(array, 0, array.length - 1)
@@ -181,6 +192,14 @@ const QuickSort = () => {
                         <span className='mx-1'>Show All</span>
                     </ToggleButton>
 
+                    <Button
+                        className='mb-4 mx-1'
+                        variant='outline-primary'
+                        onClick={handleLogsOpen}
+                    >
+                        Algorithm Logs
+                    </Button>
+
                     <InputRange
                         disabled={checked}
                         maxValue={steps}
@@ -188,6 +207,8 @@ const QuickSort = () => {
                         formatLabel={v => `${v} of ${steps}`}
                         onChange={handleSlideChange}
                     />
+
+                    {showLogs && (<StepsLog onClose={handleLogsClose} />)}
                 </div>
             </div>
         </WaveBackground>
