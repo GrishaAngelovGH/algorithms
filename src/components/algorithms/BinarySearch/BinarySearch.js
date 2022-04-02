@@ -19,20 +19,17 @@ const BinarySearch = () => {
     const handleStepButtonClick = () => {
         const values = [...elements]
 
-        if (!values.length || (values.length === 1 && values[0] !== parseInt(criteria))) {
+        if (!values.length || (values.length === 1 && values[0] !== criteria)) {
             setLabel({ title: 'Element is not found!', success: false })
         }
 
         const index = Math.floor(values.length / 2)
 
-        if (values[index] === parseInt(criteria)) {
+        if (values[index] === criteria) {
             setLabel({ title: 'Element is found!', success: true })
         }
 
-        const newElements =
-            parseInt(criteria) < values[index] ?
-                values.slice(0, index) :
-                values.slice(index)
+        const newElements = criteria < values[index] ? values.slice(0, index) : values.slice(index)
 
         setElements(newElements)
     }
