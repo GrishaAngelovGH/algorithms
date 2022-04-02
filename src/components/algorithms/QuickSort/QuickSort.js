@@ -86,7 +86,7 @@ const QuickSort = () => {
     }
 
     const handleToggle = ({ currentTarget }) => {
-        currentTarget.checked ? setStep(steps) : setStep(0)
+        setStep(currentTarget.checked ? steps : 0)
 
         setChecked(currentTarget.checked)
     }
