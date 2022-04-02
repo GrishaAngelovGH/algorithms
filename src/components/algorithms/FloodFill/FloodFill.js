@@ -118,7 +118,7 @@ const FloodFill = () => {
 
                     <div className='row justify-content-center m-3'>
                         <div className='col-md-6'>
-                            <h4 className='text-white'>
+                            <h4 className='text-white bg-primary p-2 rounded'>
                                 Flood fill is an algorithm mainly used to determine a bounded area connected
                                 to a given node in a multi-dimensional array.
                                 It is a close concept to the bucket tool in paint programs.
