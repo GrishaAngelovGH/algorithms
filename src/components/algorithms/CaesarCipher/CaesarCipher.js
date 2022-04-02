@@ -29,7 +29,7 @@ const CaesarCipher = () => {
 
     const handleSwap = () => {
         setWord(encryptedWord)
-        setEncryptedWord(word)
+        setEncryptedWord(rot13(encryptedWord))
     }
 
     const handleReset = () => {
