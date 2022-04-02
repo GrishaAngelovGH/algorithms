@@ -12,7 +12,7 @@ const LinearSearch = () => {
     const [currentIndex, setCurrentIndex] = useState(-1)
 
     const handleCriteriaInputChange = ({ target: { value } }) => {
-        !value.length ? setCriteria('') : setCriteria(parseInt(value))
+        setCriteria(!value.length ? '' : parseInt(value))
     }
 
     const handleStepButtonClick = () => {
