@@ -16,7 +16,7 @@ const LinearSearch = () => {
     }
 
     const handleStepButtonClick = () => {
-        currentIndex > elements.length - 2 ? setCurrentIndex(0) : setCurrentIndex(currentIndex + 1)
+        setCurrentIndex(index => index < elements.length - 1 ? index + 1 : 0)
     }
 
     const handleResetButtonClick = () => {
