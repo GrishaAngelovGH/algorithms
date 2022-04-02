@@ -66,10 +66,14 @@ const CaesarCipher = () => {
                         </div>
                     </div>
 
-                    <p className='text-white m-5'>
-                        The action of a Caesar cipher is to replace each plaintext letter
-                        with a different one a fixed number of places down the alphabet ( 13 in this case )
-                    </p>
+                    <div className='row justify-content-center m-3'>
+                        <div className='col-md-7'>
+                            <h4 className='text-white bg-primary p-2 rounded'>
+                                Caesar Cipher algorithm will replace each letter in given word
+                                with a different one, a fixed number of places down the alphabet ( 13 in this case )
+                            </h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </WaveBackground>
