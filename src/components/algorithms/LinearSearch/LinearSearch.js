@@ -29,7 +29,6 @@ const LinearSearch = () => {
         const newElements = new Array(10).fill(0).map(() => Math.floor(Math.random() * 100)).filter(v => v > 0)
 
         setElements(newElements)
-        setCurrentIndex(-1)
     }
 
     return (
@@ -92,11 +91,11 @@ const LinearSearch = () => {
                                             </div>
                                             {
                                                 currentIndex >= 0 && (
-                                                    <Fragment>
+                                                    <div className='bg-primary p-2 mt-3 rounded'>
                                                         <h3 className='text-white'>Current element: {elements[currentIndex]}</h3>
                                                         <h3 className='text-white'>Criteria: {criteria}</h3>
                                                         <h3 className='text-white'>Found match: {`${elements[currentIndex] === criteria}`}</h3>
-                                                    </Fragment>
+                                                    </div>
                                                 )
                                             }
                                         </div>
