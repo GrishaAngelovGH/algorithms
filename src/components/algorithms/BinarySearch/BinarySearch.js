@@ -13,7 +13,7 @@ const BinarySearch = () => {
     const [label, setLabel] = useState({ title: '', success: false })
 
     const handleCriteriaInputChange = ({ target: { value } }) => {
-        !value.length ? setCriteria('') : setCriteria(parseInt(value))
+        setCriteria(!value.length ? '' : parseInt(value))
     }
 
     const handleStepButtonClick = () => {
