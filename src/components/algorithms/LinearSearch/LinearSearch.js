@@ -92,11 +92,11 @@ const LinearSearch = () => {
                                             </div>
                                             {
                                                 currentIndex >= 0 && (
-                                                    <div className='text-white'>
-                                                        <h3>Current element: {elements[currentIndex]}</h3>
-                                                        <h3>Criteria: {criteria}</h3>
-                                                        <h3>Found match: {`${elements[currentIndex] === criteria}`}</h3>
-                                                    </div>
+                                                    <Fragment>
+                                                        <h3 className='text-white'>Current element: {elements[currentIndex]}</h3>
+                                                        <h3 className='text-white'>Criteria: {criteria}</h3>
+                                                        <h3 className='text-white'>Found match: {`${elements[currentIndex] === criteria}`}</h3>
+                                                    </Fragment>
                                                 )
                                             }
                                         </div>
