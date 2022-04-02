@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 
 import Button from 'react-bootstrap/Button'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
@@ -6,7 +6,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import WaveBackground from '../../WaveBackground'
 
 const FloodFill = () => {
-    const grid = [
+    const grid = useMemo(() => [
         ['#', '#', '#', '#', '#', '#', '#', '#', '#'],
         ['#', ' ', ' ', ' ', '#', ' ', ' ', ' ', '#'],
         ['#', ' ', ' ', ' ', '#', ' ', ' ', ' ', '#'],
@@ -16,7 +16,7 @@ const FloodFill = () => {
         ['#', ' ', ' ', ' ', '#', ' ', ' ', ' ', '#'],
         ['#', ' ', ' ', ' ', '#', ' ', ' ', ' ', '#'],
         ['#', '#', '#', '#', '#', '#', '#', '#', '#'],
-    ]
+    ], [])
 
     const generateEmptyGrid = () => new Array(9).fill(0).map(() => new Array(9).fill(false))
 
@@ -24,21 +24,21 @@ const FloodFill = () => {
     const [visitedIndexes, setVisitedIndexes] = useState([])
     const [visitedGrid, setVisitedGrid] = useState(generateEmptyGrid())
 
-    let visitedPositions = generateEmptyGrid()
+    const visitedPositions = useRef(generateEmptyGrid())
 
-    const nextStepRef = useRef((i, j) => {
-        if (visitedPositions[i][j] || grid[i][j] === '#') return
+    const nextStep = useCallback((i, j) => {
+        if (visitedPositions.current[i][j] || grid[i][j] === '#') return
 
-        visitedPositions[i][j] = true
+        visitedPositions.current[i][j] = true
 
         setVisitedIndexes(indexes => [...indexes, [i, j]])
 
-        nextStepRef.current(i, j)
-        nextStepRef.current(i + 1, j)
-        nextStepRef.current(i - 1, j)
-        nextStepRef.current(i, j + 1)
-        nextStepRef.current(i, j - 1)
-    })
+        nextStep(i, j)
+        nextStep(i + 1, j)
+        nextStep(i - 1, j)
+        nextStep(i, j + 1)
+        nextStep(i, j - 1)
+    }, [grid])
 
     const handleStep = () => {
         const coords = visitedIndexes[currentIndex]
@@ -61,14 +61,14 @@ const FloodFill = () => {
 
         setVisitedGrid(generateEmptyGrid())
 
-        visitedPositions = generateEmptyGrid()
+        visitedPositions.current = generateEmptyGrid()
 
-        nextStepRef.current(4, 4)
+        nextStep(4, 4)
     }
 
     useEffect(() => {
-        nextStepRef.current(4, 4)
-    }, [])
+        nextStep(4, 4)
+    }, [nextStep])
 
     return (
         <WaveBackground>
