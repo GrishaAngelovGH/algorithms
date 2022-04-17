@@ -1,19 +1,26 @@
-# This app provides visualization of the following algorigthms:
+# Algorithm Visualizer
 
-## Searching Algorithms
-- Linear Search
-- Binary Search
+Front-end project implementing various algorithms with step-by-step visualization. 
 
-## Sorting Algorithms
-- Bubble Sort
-- Quick Sort
+## The front-end project is implementing the following algorithms:
 
-## Binary Tree Algorithms
-- Breadth First Search
-- Depth First Search
+* Linear Search Algorithm
+* Binary Search Algorithm
+* Bubble Sort Algorithm
+* Quick Sort Algorithm
+* Breadth First Search Traversal Algorithm
+* Depth First Search Traversal Algorithm
+* Caesar Cipher Algorithm
+* Flood Fill Algorithm
 
-## Cryptography Algorithms
-- Caesar Cipher
+## The front-end project is using the following technologies:
 
-## Computer Graphics Algorithms
-- Flood Fill
+* Initial structure is created with **create-react-app**
+* Integrated **react 18**
+* Integrated **react-router v6**
+* Integrated **bootstrap 5**
+* Integrated **react-bootstrap**
+* Integrated **react-d3-tree**
+* Integrated **react-input-range**
+* Integrated **react-pro-sidebar**
+* Integrated **antd** component library
