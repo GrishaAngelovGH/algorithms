@@ -32,8 +32,7 @@ const TreeWrapper = React.forwardRef(({ data }, ref) => {
             x: dimensions.width / 2,
             y: 50
         })
-        // eslint-disable-next-line
-    }, [])
+    }, [ref])
 
     return (
         <div id='treeWrapper' className='binary-tree' ref={ref}>

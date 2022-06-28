@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react'
 import ToggleButton from 'react-bootstrap/ToggleButton'
 
 import Legend from './Legend'
-import InputRange from './InputRange'
+import Slider from '../../Slider'
 import WaveBackground from '../../WaveBackground'
 
 /*
@@ -135,11 +135,10 @@ const BubbleSort = () => {
                         <span className='mx-1'>Show All</span>
                     </ToggleButton>
 
-                    <InputRange
-                        disabled={checked}
-                        maxValue={steps}
+                    <Slider
+                        max={steps}
                         value={step}
-                        formatLabel={v => `${v} of ${steps}`}
+                        disabled={checked}
                         onChange={handleSlideChange}
                     />
                 </div>

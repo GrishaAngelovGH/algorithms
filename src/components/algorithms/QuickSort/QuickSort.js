@@ -5,7 +5,7 @@ import ToggleButton from 'react-bootstrap/ToggleButton'
 
 import Legend from './Legend'
 import StepsLog from './StepsLog'
-import InputRange from './InputRange'
+import Slider from '../../Slider'
 import WaveBackground from '../../WaveBackground'
 
 /*
@@ -200,11 +200,10 @@ const QuickSort = () => {
                         Algorithm Logs
                     </Button>
 
-                    <InputRange
-                        disabled={checked}
-                        maxValue={steps}
+                    <Slider
+                        max={steps}
                         value={step}
-                        formatLabel={v => `${v} of ${steps}`}
+                        disabled={checked}
                         onChange={handleSlideChange}
                     />
 

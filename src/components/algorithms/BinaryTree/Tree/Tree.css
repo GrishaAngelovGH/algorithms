@@ -1,5 +1,5 @@
 .node__branch > circle {
-    fill: #ffffff;
+    fill: #fff;
 }
 
 .node__branch__visited > circle {
@@ -7,11 +7,12 @@
 }
 
 .rd3t-label >.rd3t-label__title{
-    stroke: #ffffff;
+    fill: #fff;
+    stroke: #fff;
 }
 
 .binary-tree {
     width: 100%;
     height: 75vh;
-    color:#ffffff;
+    color:#fff;
 }
