@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 
 import ToggleButton from 'react-bootstrap/ToggleButton'
 
-import Legend from './Legend'
+import Legend from '../../Legend'
 import Slider from '../../Slider'
 import WaveBackground from '../../WaveBackground'
 

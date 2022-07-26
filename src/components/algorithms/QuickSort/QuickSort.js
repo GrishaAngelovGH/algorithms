@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import ToggleButton from 'react-bootstrap/ToggleButton'
 
-import Legend from './Legend'
+import Legend from '../../Legend'
 import StepsLog from './StepsLog'
 import Slider from '../../Slider'
 import WaveBackground from '../../WaveBackground'

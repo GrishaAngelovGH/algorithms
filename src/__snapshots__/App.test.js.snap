@@ -1,0 +1,882 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="row g-0 p-3"
+      >
+        <div
+          class="col-md-3 col-lg-2"
+        >
+          <div
+            class="pro-sidebar"
+          >
+            <div
+              class="pro-sidebar-inner"
+            >
+              <div
+                class="pro-sidebar-layout"
+              >
+                <div
+                  class="pro-sidebar-header"
+                >
+                  <h3
+                    class="text-white bg-primary text-center p-2"
+                  >
+                    Algorithms
+                  </h3>
+                </div>
+                <nav
+                  class="pro-menu shaped square inner-submenu-arrows"
+                >
+                  <ul>
+                    <li
+                      class="pro-menu-item pro-sub-menu bg-primary text-white open"
+                    >
+                      <div
+                        class="pro-inner-item"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span
+                          class="pro-item-content"
+                        >
+                          Searching
+                        </span>
+                        <span
+                          class="pro-arrow-wrapper"
+                        >
+                          <span
+                            class="pro-arrow"
+                          />
+                        </span>
+                      </div>
+                      <div
+                        class="react-slidedown pro-inner-list-item transitioning"
+                        style="height: auto; transition-property: height;"
+                      >
+                        <div>
+                          <ul>
+                            <li
+                              class="pro-menu-item"
+                            >
+                              <div
+                                class="pro-inner-item"
+                                role="button"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="pro-item-content"
+                                >
+                                  <a
+                                    href="#/linear-search"
+                                  >
+                                    Linear Search
+                                  </a>
+                                </span>
+                              </div>
+                            </li>
+                            <li
+                              class="pro-menu-item"
+                            >
+                              <div
+                                class="pro-inner-item"
+                                role="button"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="pro-item-content"
+                                >
+                                  <a
+                                    href="#/binary-search"
+                                  >
+                                    Binary Search
+                                  </a>
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                    >
+                      <div
+                        class="pro-inner-item"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span
+                          class="pro-item-content"
+                        >
+                          Sorting
+                        </span>
+                        <span
+                          class="pro-arrow-wrapper"
+                        >
+                          <span
+                            class="pro-arrow"
+                          />
+                        </span>
+                      </div>
+                      <div
+                        class="react-slidedown pro-inner-list-item closed"
+                        style="height: 0px;"
+                      >
+                        <div>
+                          <ul>
+                            <li
+                              class="pro-menu-item"
+                            >
+                              <div
+                                class="pro-inner-item"
+                                role="button"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="pro-item-content"
+                                >
+                                  <a
+                                    href="#/bubble-sort"
+                                  >
+                                    Bubble Sort
+                                  </a>
+                                </span>
+                              </div>
+                            </li>
+                            <li
+                              class="pro-menu-item"
+                            >
+                              <div
+                                class="pro-inner-item"
+                                role="button"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="pro-item-content"
+                                >
+                                  <a
+                                    href="#/quick-sort"
+                                  >
+                                    Quick Sort
+                                  </a>
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                    >
+                      <div
+                        class="pro-inner-item"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span
+                          class="pro-item-content"
+                        >
+                          Binary Tree
+                        </span>
+                        <span
+                          class="pro-arrow-wrapper"
+                        >
+                          <span
+                            class="pro-arrow"
+                          />
+                        </span>
+                      </div>
+                      <div
+                        class="react-slidedown pro-inner-list-item closed"
+                        style="height: 0px;"
+                      >
+                        <div>
+                          <ul>
+                            <li
+                              class="pro-menu-item"
+                            >
+                              <div
+                                class="pro-inner-item"
+                                role="button"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="pro-item-content"
+                                >
+                                  <a
+                                    href="#/binary-tree"
+                                  >
+                                    BFS and DFS Traversal
+                                  </a>
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                    >
+                      <div
+                        class="pro-inner-item"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span
+                          class="pro-item-content"
+                        >
+                          Cryptography
+                        </span>
+                        <span
+                          class="pro-arrow-wrapper"
+                        >
+                          <span
+                            class="pro-arrow"
+                          />
+                        </span>
+                      </div>
+                      <div
+                        class="react-slidedown pro-inner-list-item closed"
+                        style="height: 0px;"
+                      >
+                        <div>
+                          <ul>
+                            <li
+                              class="pro-menu-item"
+                            >
+                              <div
+                                class="pro-inner-item"
+                                role="button"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="pro-item-content"
+                                >
+                                  <a
+                                    href="#/caesar-cipher"
+                                  >
+                                    Caesar Cipher
+                                  </a>
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                    >
+                      <div
+                        class="pro-inner-item"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <span
+                          class="pro-item-content"
+                        >
+                          Computer Graphics
+                        </span>
+                        <span
+                          class="pro-arrow-wrapper"
+                        >
+                          <span
+                            class="pro-arrow"
+                          />
+                        </span>
+                      </div>
+                      <div
+                        class="react-slidedown pro-inner-list-item closed"
+                        style="height: 0px;"
+                      >
+                        <div>
+                          <ul>
+                            <li
+                              class="pro-menu-item"
+                            >
+                              <div
+                                class="pro-inner-item"
+                                role="button"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="pro-item-content"
+                                >
+                                  <a
+                                    href="#/flood-fill"
+                                  >
+                                    Flood Fill
+                                  </a>
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div
+              aria-label="overlay"
+              class="overlay"
+              role="button"
+              tabindex="0"
+            />
+          </div>
+        </div>
+        <div
+          class="col-md-9 col-lg-10"
+        >
+          <div
+            class="waveWrapper waveAnimation"
+          >
+            <div
+              class="waveWrapperInner bgTop"
+            >
+              <div
+                class="wave waveTop"
+              />
+            </div>
+            <div
+              class="waveWrapperInner bgMiddle"
+            >
+              <div
+                class="wave waveMiddle"
+              />
+            </div>
+            <div
+              class="waveWrapperInner bgBottom"
+            >
+              <div
+                class="wave waveBottom"
+              />
+            </div>
+          </div>
+          <div
+            class="wave-content"
+          >
+            <div
+              class="row g-0 justify-content-center text-center p-3"
+            >
+              <div
+                class="col-md-12"
+              >
+                <h3
+                  class="text-white"
+                >
+                  Linear Search Algorithm
+                </h3>
+                <div
+                  class="row justify-content-center"
+                >
+                  <div
+                    class="col-md-6"
+                  >
+                    <div
+                      class="mb-3 input-group"
+                    >
+                      <input
+                        class="form-control"
+                        disabled=""
+                        value=""
+                      />
+                      <button
+                        class="btn btn-primary"
+                        type="button"
+                      >
+                        Random Fill
+                      </button>
+                    </div>
+                    <div
+                      class="mb-3 input-group"
+                    >
+                      <input
+                        class="form-control"
+                        min="1"
+                        placeholder="Enter search criteria"
+                        type="number"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="row g-0 p-3"
+    >
+      <div
+        class="col-md-3 col-lg-2"
+      >
+        <div
+          class="pro-sidebar"
+        >
+          <div
+            class="pro-sidebar-inner"
+          >
+            <div
+              class="pro-sidebar-layout"
+            >
+              <div
+                class="pro-sidebar-header"
+              >
+                <h3
+                  class="text-white bg-primary text-center p-2"
+                >
+                  Algorithms
+                </h3>
+              </div>
+              <nav
+                class="pro-menu shaped square inner-submenu-arrows"
+              >
+                <ul>
+                  <li
+                    class="pro-menu-item pro-sub-menu bg-primary text-white open"
+                  >
+                    <div
+                      class="pro-inner-item"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span
+                        class="pro-item-content"
+                      >
+                        Searching
+                      </span>
+                      <span
+                        class="pro-arrow-wrapper"
+                      >
+                        <span
+                          class="pro-arrow"
+                        />
+                      </span>
+                    </div>
+                    <div
+                      class="react-slidedown pro-inner-list-item transitioning"
+                      style="height: auto; transition-property: height;"
+                    >
+                      <div>
+                        <ul>
+                          <li
+                            class="pro-menu-item"
+                          >
+                            <div
+                              class="pro-inner-item"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="pro-item-content"
+                              >
+                                <a
+                                  href="#/linear-search"
+                                >
+                                  Linear Search
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                          <li
+                            class="pro-menu-item"
+                          >
+                            <div
+                              class="pro-inner-item"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="pro-item-content"
+                              >
+                                <a
+                                  href="#/binary-search"
+                                >
+                                  Binary Search
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                  >
+                    <div
+                      class="pro-inner-item"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span
+                        class="pro-item-content"
+                      >
+                        Sorting
+                      </span>
+                      <span
+                        class="pro-arrow-wrapper"
+                      >
+                        <span
+                          class="pro-arrow"
+                        />
+                      </span>
+                    </div>
+                    <div
+                      class="react-slidedown pro-inner-list-item closed"
+                      style="height: 0px;"
+                    >
+                      <div>
+                        <ul>
+                          <li
+                            class="pro-menu-item"
+                          >
+                            <div
+                              class="pro-inner-item"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="pro-item-content"
+                              >
+                                <a
+                                  href="#/bubble-sort"
+                                >
+                                  Bubble Sort
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                          <li
+                            class="pro-menu-item"
+                          >
+                            <div
+                              class="pro-inner-item"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="pro-item-content"
+                              >
+                                <a
+                                  href="#/quick-sort"
+                                >
+                                  Quick Sort
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                  >
+                    <div
+                      class="pro-inner-item"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span
+                        class="pro-item-content"
+                      >
+                        Binary Tree
+                      </span>
+                      <span
+                        class="pro-arrow-wrapper"
+                      >
+                        <span
+                          class="pro-arrow"
+                        />
+                      </span>
+                    </div>
+                    <div
+                      class="react-slidedown pro-inner-list-item closed"
+                      style="height: 0px;"
+                    >
+                      <div>
+                        <ul>
+                          <li
+                            class="pro-menu-item"
+                          >
+                            <div
+                              class="pro-inner-item"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="pro-item-content"
+                              >
+                                <a
+                                  href="#/binary-tree"
+                                >
+                                  BFS and DFS Traversal
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                  >
+                    <div
+                      class="pro-inner-item"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span
+                        class="pro-item-content"
+                      >
+                        Cryptography
+                      </span>
+                      <span
+                        class="pro-arrow-wrapper"
+                      >
+                        <span
+                          class="pro-arrow"
+                        />
+                      </span>
+                    </div>
+                    <div
+                      class="react-slidedown pro-inner-list-item closed"
+                      style="height: 0px;"
+                    >
+                      <div>
+                        <ul>
+                          <li
+                            class="pro-menu-item"
+                          >
+                            <div
+                              class="pro-inner-item"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="pro-item-content"
+                              >
+                                <a
+                                  href="#/caesar-cipher"
+                                >
+                                  Caesar Cipher
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                  >
+                    <div
+                      class="pro-inner-item"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span
+                        class="pro-item-content"
+                      >
+                        Computer Graphics
+                      </span>
+                      <span
+                        class="pro-arrow-wrapper"
+                      >
+                        <span
+                          class="pro-arrow"
+                        />
+                      </span>
+                    </div>
+                    <div
+                      class="react-slidedown pro-inner-list-item closed"
+                      style="height: 0px;"
+                    >
+                      <div>
+                        <ul>
+                          <li
+                            class="pro-menu-item"
+                          >
+                            <div
+                              class="pro-inner-item"
+                              role="button"
+                              tabindex="0"
+                            >
+                              <span
+                                class="pro-item-content"
+                              >
+                                <a
+                                  href="#/flood-fill"
+                                >
+                                  Flood Fill
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div
+            aria-label="overlay"
+            class="overlay"
+            role="button"
+            tabindex="0"
+          />
+        </div>
+      </div>
+      <div
+        class="col-md-9 col-lg-10"
+      >
+        <div
+          class="waveWrapper waveAnimation"
+        >
+          <div
+            class="waveWrapperInner bgTop"
+          >
+            <div
+              class="wave waveTop"
+            />
+          </div>
+          <div
+            class="waveWrapperInner bgMiddle"
+          >
+            <div
+              class="wave waveMiddle"
+            />
+          </div>
+          <div
+            class="waveWrapperInner bgBottom"
+          >
+            <div
+              class="wave waveBottom"
+            />
+          </div>
+        </div>
+        <div
+          class="wave-content"
+        >
+          <div
+            class="row g-0 justify-content-center text-center p-3"
+          >
+            <div
+              class="col-md-12"
+            >
+              <h3
+                class="text-white"
+              >
+                Linear Search Algorithm
+              </h3>
+              <div
+                class="row justify-content-center"
+              >
+                <div
+                  class="col-md-6"
+                >
+                  <div
+                    class="mb-3 input-group"
+                  >
+                    <input
+                      class="form-control"
+                      disabled=""
+                      value=""
+                    />
+                    <button
+                      class="btn btn-primary"
+                      type="button"
+                    >
+                      Random Fill
+                    </button>
+                  </div>
+                  <div
+                    class="mb-3 input-group"
+                  >
+                    <input
+                      class="form-control"
+                      min="1"
+                      placeholder="Enter search criteria"
+                      type="number"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

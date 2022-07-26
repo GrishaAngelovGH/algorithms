@@ -1,0 +1,794 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="waveWrapper waveAnimation"
+      >
+        <div
+          class="waveWrapperInner bgTop"
+        >
+          <div
+            class="wave waveTop"
+          />
+        </div>
+        <div
+          class="waveWrapperInner bgMiddle"
+        >
+          <div
+            class="wave waveMiddle"
+          />
+        </div>
+        <div
+          class="waveWrapperInner bgBottom"
+        >
+          <div
+            class="wave waveBottom"
+          />
+        </div>
+      </div>
+      <div
+        class="wave-content"
+      >
+        <h1
+          class="text-center text-white"
+        >
+          Bubble Sort
+        </h1>
+        <div
+          class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+        >
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+        >
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+        >
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+        >
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+        >
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+        >
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+        >
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center text-center p-3 text-white fw-bold"
+        >
+          <h3
+            class="text-white"
+          >
+            Final Result
+          </h3>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            1
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            2
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            3
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            4
+          </div>
+          <div
+            class="col-md-1 mx-1 bg-success rounded"
+          >
+            5
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center"
+        >
+          <div
+            class="col-md-6"
+          >
+            <div
+              class="item-legend text-white"
+            >
+              <div
+                class="legend-title"
+              >
+                Legend
+              </div>
+              <div
+                class="legend-scale"
+              >
+                <ul
+                  class="legend-labels"
+                >
+                  <li
+                    class="fw-bold"
+                  >
+                    <span
+                      style="background: rgb(25, 135, 84);"
+                    />
+                    Regular element
+                  </li>
+                  <li
+                    class="fw-bold"
+                  >
+                    <span
+                      style="background: rgb(255, 193, 7);"
+                    />
+                    Swapped element
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center"
+        >
+          <div
+            class="col-md-6"
+          >
+            <h5
+              class="text-center text-white"
+            >
+              Slide to see swapped elements on each step
+            </h5>
+            <label
+              class="mb-4 btn btn-outline-success"
+              id="toggle-check"
+            >
+              <input
+                autocomplete="off"
+                type="checkbox"
+                value=""
+              />
+              <span
+                class="mx-1"
+              >
+                Show All
+              </span>
+            </label>
+            <div
+              class="rc-slider rc-slider-horizontal"
+            >
+              <div
+                class="rc-slider-rail"
+                style="height: 2px;"
+              />
+              <div
+                class="rc-slider-track"
+                style="left: 0%; width: 0%; background: green;"
+              />
+              <div
+                class="rc-slider-step"
+              />
+              <div
+                aria-disabled="false"
+                aria-valuemax="6"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                class="rc-slider-handle"
+                role="slider"
+                style="left: 0%; transform: translateX(-50%); height: 28px; width: 28px; margin-left: -14px; margin-top: -14px; background-color: green; border: 0px; opacity: 1;"
+                tabindex="0"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="waveWrapper waveAnimation"
+    >
+      <div
+        class="waveWrapperInner bgTop"
+      >
+        <div
+          class="wave waveTop"
+        />
+      </div>
+      <div
+        class="waveWrapperInner bgMiddle"
+      >
+        <div
+          class="wave waveMiddle"
+        />
+      </div>
+      <div
+        class="waveWrapperInner bgBottom"
+      >
+        <div
+          class="wave waveBottom"
+        />
+      </div>
+    </div>
+    <div
+      class="wave-content"
+    >
+      <h1
+        class="text-center text-white"
+      >
+        Bubble Sort
+      </h1>
+      <div
+        class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+      >
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+      >
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+      >
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+      >
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+      >
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+      >
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center text-center p-1 text-white fw-bold"
+      >
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center text-center p-3 text-white fw-bold"
+      >
+        <h3
+          class="text-white"
+        >
+          Final Result
+        </h3>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          1
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          2
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          3
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          4
+        </div>
+        <div
+          class="col-md-1 mx-1 bg-success rounded"
+        >
+          5
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <div
+            class="item-legend text-white"
+          >
+            <div
+              class="legend-title"
+            >
+              Legend
+            </div>
+            <div
+              class="legend-scale"
+            >
+              <ul
+                class="legend-labels"
+              >
+                <li
+                  class="fw-bold"
+                >
+                  <span
+                    style="background: rgb(25, 135, 84);"
+                  />
+                  Regular element
+                </li>
+                <li
+                  class="fw-bold"
+                >
+                  <span
+                    style="background: rgb(255, 193, 7);"
+                  />
+                  Swapped element
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center"
+      >
+        <div
+          class="col-md-6"
+        >
+          <h5
+            class="text-center text-white"
+          >
+            Slide to see swapped elements on each step
+          </h5>
+          <label
+            class="mb-4 btn btn-outline-success"
+            id="toggle-check"
+          >
+            <input
+              autocomplete="off"
+              type="checkbox"
+              value=""
+            />
+            <span
+              class="mx-1"
+            >
+              Show All
+            </span>
+          </label>
+          <div
+            class="rc-slider rc-slider-horizontal"
+          >
+            <div
+              class="rc-slider-rail"
+              style="height: 2px;"
+            />
+            <div
+              class="rc-slider-track"
+              style="left: 0%; width: 0%; background: green;"
+            />
+            <div
+              class="rc-slider-step"
+            />
+            <div
+              aria-disabled="false"
+              aria-valuemax="6"
+              aria-valuemin="0"
+              aria-valuenow="0"
+              class="rc-slider-handle"
+              role="slider"
+              style="left: 0%; transform: translateX(-50%); height: 28px; width: 28px; margin-left: -14px; margin-top: -14px; background-color: green; border: 0px; opacity: 1;"
+              tabindex="0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
