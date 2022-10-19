@@ -11,327 +11,222 @@ Object {
         <div
           class="col-md-3 col-lg-2"
         >
-          <div
-            class="pro-sidebar"
+          <aside
+            class="sc-gswNZR licquX sidebar"
+            data-testid="sidebar-test-id"
+            style="z-index: 100;"
+            width="230px"
           >
             <div
-              class="pro-sidebar-inner"
+              class="sc-dkrFOg gQwXYT sidebar-inner"
+              data-testid="inner-sidebar-test-id"
             >
-              <div
-                class="pro-sidebar-layout"
+              <h3
+                class="text-white bg-primary text-center p-2"
               >
-                <div
-                  class="pro-sidebar-header"
+                Algorithms
+              </h3>
+              <nav
+                class="menu"
+              >
+                <ul
+                  class="sc-eDvSVe gnJkew"
                 >
-                  <h3
-                    class="text-white bg-primary text-center p-2"
+                  <li
+                    class="sc-eDWCr ffSMgA sub-menu menu-item open"
                   >
-                    Algorithms
-                  </h3>
-                </div>
-                <nav
-                  class="pro-menu shaped square inner-submenu-arrows"
-                >
-                  <ul>
-                    <li
-                      class="pro-menu-item pro-sub-menu bg-primary text-white open"
+                    <a
+                      class="sc-pyfCe lkTtqM menu-anchor"
                     >
-                      <div
-                        class="pro-inner-item"
-                        role="button"
-                        tabindex="0"
+                      <span
+                        class="sc-gKPRtg ktVuSn menu-label"
+                      >
+                        Searching
+                      </span>
+                      <span
+                        class="sc-kDvujY hUHiae expand-icon"
                       >
                         <span
-                          class="pro-item-content"
-                        >
-                          Searching
-                        </span>
-                        <span
-                          class="pro-arrow-wrapper"
-                        >
-                          <span
-                            class="pro-arrow"
-                          />
-                        </span>
-                      </div>
-                      <div
-                        class="react-slidedown pro-inner-list-item transitioning"
-                        style="height: auto; transition-property: height;"
-                      >
-                        <div>
-                          <ul>
-                            <li
-                              class="pro-menu-item"
-                            >
-                              <div
-                                class="pro-inner-item"
-                                role="button"
-                                tabindex="0"
-                              >
-                                <span
-                                  class="pro-item-content"
-                                >
-                                  <a
-                                    href="#/linear-search"
-                                  >
-                                    Linear Search
-                                  </a>
-                                </span>
-                              </div>
-                            </li>
-                            <li
-                              class="pro-menu-item"
-                            >
-                              <div
-                                class="pro-inner-item"
-                                role="button"
-                                tabindex="0"
-                              >
-                                <span
-                                  class="pro-item-content"
-                                >
-                                  <a
-                                    href="#/binary-search"
-                                  >
-                                    Binary Search
-                                  </a>
-                                </span>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                          class="sc-ipEyDJ bqvrAb"
+                          open=""
+                        />
+                      </span>
+                    </a>
+                    <div
+                      class="sc-jSUZER oVBfl sub-menu-content"
+                      open=""
                     >
-                      <div
-                        class="pro-inner-item"
-                        role="button"
-                        tabindex="0"
+                      <ul
+                        class="sc-eDvSVe gnJkew"
                       >
-                        <span
-                          class="pro-item-content"
+                        <a
+                          class="d-block text-center p-1 text-decoration-none"
+                          href="#/linear-search"
+                          level="1"
                         >
-                          Sorting
-                        </span>
-                        <span
-                          class="pro-arrow-wrapper"
+                          Linear Search
+                        </a>
+                        <a
+                          class="d-block text-center p-1 text-decoration-none"
+                          href="#/binary-search"
+                          level="1"
                         >
-                          <span
-                            class="pro-arrow"
-                          />
-                        </span>
-                      </div>
-                      <div
-                        class="react-slidedown pro-inner-list-item closed"
-                        style="height: 0px;"
-                      >
-                        <div>
-                          <ul>
-                            <li
-                              class="pro-menu-item"
-                            >
-                              <div
-                                class="pro-inner-item"
-                                role="button"
-                                tabindex="0"
-                              >
-                                <span
-                                  class="pro-item-content"
-                                >
-                                  <a
-                                    href="#/bubble-sort"
-                                  >
-                                    Bubble Sort
-                                  </a>
-                                </span>
-                              </div>
-                            </li>
-                            <li
-                              class="pro-menu-item"
-                            >
-                              <div
-                                class="pro-inner-item"
-                                role="button"
-                                tabindex="0"
-                              >
-                                <span
-                                  class="pro-item-content"
-                                >
-                                  <a
-                                    href="#/quick-sort"
-                                  >
-                                    Quick Sort
-                                  </a>
-                                </span>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                          Binary Search
+                        </a>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="sc-eDWCr ffSMgA sub-menu menu-item"
+                  >
+                    <a
+                      class="sc-pyfCe lkTtqM menu-anchor"
                     >
-                      <div
-                        class="pro-inner-item"
-                        role="button"
-                        tabindex="0"
+                      <span
+                        class="sc-gKPRtg ktVuSn menu-label"
+                      >
+                        Sorting
+                      </span>
+                      <span
+                        class="sc-kDvujY hUHiae expand-icon"
                       >
                         <span
-                          class="pro-item-content"
-                        >
-                          Binary Tree
-                        </span>
-                        <span
-                          class="pro-arrow-wrapper"
-                        >
-                          <span
-                            class="pro-arrow"
-                          />
-                        </span>
-                      </div>
-                      <div
-                        class="react-slidedown pro-inner-list-item closed"
-                        style="height: 0px;"
-                      >
-                        <div>
-                          <ul>
-                            <li
-                              class="pro-menu-item"
-                            >
-                              <div
-                                class="pro-inner-item"
-                                role="button"
-                                tabindex="0"
-                              >
-                                <span
-                                  class="pro-item-content"
-                                >
-                                  <a
-                                    href="#/binary-tree"
-                                  >
-                                    BFS and DFS Traversal
-                                  </a>
-                                </span>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                          class="sc-ipEyDJ jFdoiu"
+                        />
+                      </span>
+                    </a>
+                    <div
+                      class="sc-jSUZER daWgIu sub-menu-content"
                     >
-                      <div
-                        class="pro-inner-item"
-                        role="button"
-                        tabindex="0"
+                      <ul
+                        class="sc-eDvSVe gnJkew"
                       >
-                        <span
-                          class="pro-item-content"
+                        <a
+                          class="d-block text-center p-1 text-decoration-none"
+                          href="#/bubble-sort"
+                          level="1"
                         >
-                          Cryptography
-                        </span>
-                        <span
-                          class="pro-arrow-wrapper"
+                          Bubble Sort
+                        </a>
+                        <a
+                          class="d-block text-center p-1 text-decoration-none"
+                          href="#/quick-sort"
+                          level="1"
                         >
-                          <span
-                            class="pro-arrow"
-                          />
-                        </span>
-                      </div>
-                      <div
-                        class="react-slidedown pro-inner-list-item closed"
-                        style="height: 0px;"
-                      >
-                        <div>
-                          <ul>
-                            <li
-                              class="pro-menu-item"
-                            >
-                              <div
-                                class="pro-inner-item"
-                                role="button"
-                                tabindex="0"
-                              >
-                                <span
-                                  class="pro-item-content"
-                                >
-                                  <a
-                                    href="#/caesar-cipher"
-                                  >
-                                    Caesar Cipher
-                                  </a>
-                                </span>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li
-                      class="pro-menu-item pro-sub-menu bg-primary text-white"
+                          Quick Sort
+                        </a>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="sc-eDWCr ffSMgA sub-menu menu-item"
+                  >
+                    <a
+                      class="sc-pyfCe lkTtqM menu-anchor"
                     >
-                      <div
-                        class="pro-inner-item"
-                        role="button"
-                        tabindex="0"
+                      <span
+                        class="sc-gKPRtg ktVuSn menu-label"
+                      >
+                        Binary Tree
+                      </span>
+                      <span
+                        class="sc-kDvujY hUHiae expand-icon"
                       >
                         <span
-                          class="pro-item-content"
-                        >
-                          Computer Graphics
-                        </span>
-                        <span
-                          class="pro-arrow-wrapper"
-                        >
-                          <span
-                            class="pro-arrow"
-                          />
-                        </span>
-                      </div>
-                      <div
-                        class="react-slidedown pro-inner-list-item closed"
-                        style="height: 0px;"
+                          class="sc-ipEyDJ jFdoiu"
+                        />
+                      </span>
+                    </a>
+                    <div
+                      class="sc-jSUZER daWgIu sub-menu-content"
+                    >
+                      <ul
+                        class="sc-eDvSVe gnJkew"
                       >
-                        <div>
-                          <ul>
-                            <li
-                              class="pro-menu-item"
-                            >
-                              <div
-                                class="pro-inner-item"
-                                role="button"
-                                tabindex="0"
-                              >
-                                <span
-                                  class="pro-item-content"
-                                >
-                                  <a
-                                    href="#/flood-fill"
-                                  >
-                                    Flood Fill
-                                  </a>
-                                </span>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
+                        <a
+                          class="d-block text-center p-1 text-decoration-none"
+                          href="#/binary-tree"
+                          level="1"
+                        >
+                          BFS and DFS Traversal
+                        </a>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="sc-eDWCr ffSMgA sub-menu menu-item"
+                  >
+                    <a
+                      class="sc-pyfCe lkTtqM menu-anchor"
+                    >
+                      <span
+                        class="sc-gKPRtg ktVuSn menu-label"
+                      >
+                        Cryptography
+                      </span>
+                      <span
+                        class="sc-kDvujY hUHiae expand-icon"
+                      >
+                        <span
+                          class="sc-ipEyDJ jFdoiu"
+                        />
+                      </span>
+                    </a>
+                    <div
+                      class="sc-jSUZER daWgIu sub-menu-content"
+                    >
+                      <ul
+                        class="sc-eDvSVe gnJkew"
+                      >
+                        <a
+                          class="d-block text-center p-1 text-decoration-none"
+                          href="#/caesar-cipher"
+                          level="1"
+                        >
+                          Caesar Cipher
+                        </a>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="sc-eDWCr ffSMgA sub-menu menu-item"
+                  >
+                    <a
+                      class="sc-pyfCe lkTtqM menu-anchor"
+                    >
+                      <span
+                        class="sc-gKPRtg ktVuSn menu-label"
+                      >
+                        Computer Graphics
+                      </span>
+                      <span
+                        class="sc-kDvujY hUHiae expand-icon"
+                      >
+                        <span
+                          class="sc-ipEyDJ jFdoiu"
+                        />
+                      </span>
+                    </a>
+                    <div
+                      class="sc-jSUZER daWgIu sub-menu-content"
+                    >
+                      <ul
+                        class="sc-eDvSVe gnJkew"
+                      >
+                        <a
+                          class="d-block text-center p-1 text-decoration-none"
+                          href="#/flood-fill"
+                          level="1"
+                        >
+                          Flood Fill
+                        </a>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <div
-              aria-label="overlay"
-              class="overlay"
-              role="button"
-              tabindex="0"
-            />
-          </div>
+          </aside>
         </div>
         <div
           class="col-md-9 col-lg-10"
@@ -423,327 +318,222 @@ Object {
       <div
         class="col-md-3 col-lg-2"
       >
-        <div
-          class="pro-sidebar"
+        <aside
+          class="sc-gswNZR licquX sidebar"
+          data-testid="sidebar-test-id"
+          style="z-index: 100;"
+          width="230px"
         >
           <div
-            class="pro-sidebar-inner"
+            class="sc-dkrFOg gQwXYT sidebar-inner"
+            data-testid="inner-sidebar-test-id"
           >
-            <div
-              class="pro-sidebar-layout"
+            <h3
+              class="text-white bg-primary text-center p-2"
             >
-              <div
-                class="pro-sidebar-header"
+              Algorithms
+            </h3>
+            <nav
+              class="menu"
+            >
+              <ul
+                class="sc-eDvSVe gnJkew"
               >
-                <h3
-                  class="text-white bg-primary text-center p-2"
+                <li
+                  class="sc-eDWCr ffSMgA sub-menu menu-item open"
                 >
-                  Algorithms
-                </h3>
-              </div>
-              <nav
-                class="pro-menu shaped square inner-submenu-arrows"
-              >
-                <ul>
-                  <li
-                    class="pro-menu-item pro-sub-menu bg-primary text-white open"
+                  <a
+                    class="sc-pyfCe lkTtqM menu-anchor"
                   >
-                    <div
-                      class="pro-inner-item"
-                      role="button"
-                      tabindex="0"
+                    <span
+                      class="sc-gKPRtg ktVuSn menu-label"
+                    >
+                      Searching
+                    </span>
+                    <span
+                      class="sc-kDvujY hUHiae expand-icon"
                     >
                       <span
-                        class="pro-item-content"
-                      >
-                        Searching
-                      </span>
-                      <span
-                        class="pro-arrow-wrapper"
-                      >
-                        <span
-                          class="pro-arrow"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="react-slidedown pro-inner-list-item transitioning"
-                      style="height: auto; transition-property: height;"
-                    >
-                      <div>
-                        <ul>
-                          <li
-                            class="pro-menu-item"
-                          >
-                            <div
-                              class="pro-inner-item"
-                              role="button"
-                              tabindex="0"
-                            >
-                              <span
-                                class="pro-item-content"
-                              >
-                                <a
-                                  href="#/linear-search"
-                                >
-                                  Linear Search
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                          <li
-                            class="pro-menu-item"
-                          >
-                            <div
-                              class="pro-inner-item"
-                              role="button"
-                              tabindex="0"
-                            >
-                              <span
-                                class="pro-item-content"
-                              >
-                                <a
-                                  href="#/binary-search"
-                                >
-                                  Binary Search
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li
-                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                        class="sc-ipEyDJ bqvrAb"
+                        open=""
+                      />
+                    </span>
+                  </a>
+                  <div
+                    class="sc-jSUZER oVBfl sub-menu-content"
+                    open=""
                   >
-                    <div
-                      class="pro-inner-item"
-                      role="button"
-                      tabindex="0"
+                    <ul
+                      class="sc-eDvSVe gnJkew"
                     >
-                      <span
-                        class="pro-item-content"
+                      <a
+                        class="d-block text-center p-1 text-decoration-none"
+                        href="#/linear-search"
+                        level="1"
                       >
-                        Sorting
-                      </span>
-                      <span
-                        class="pro-arrow-wrapper"
+                        Linear Search
+                      </a>
+                      <a
+                        class="d-block text-center p-1 text-decoration-none"
+                        href="#/binary-search"
+                        level="1"
                       >
-                        <span
-                          class="pro-arrow"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="react-slidedown pro-inner-list-item closed"
-                      style="height: 0px;"
-                    >
-                      <div>
-                        <ul>
-                          <li
-                            class="pro-menu-item"
-                          >
-                            <div
-                              class="pro-inner-item"
-                              role="button"
-                              tabindex="0"
-                            >
-                              <span
-                                class="pro-item-content"
-                              >
-                                <a
-                                  href="#/bubble-sort"
-                                >
-                                  Bubble Sort
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                          <li
-                            class="pro-menu-item"
-                          >
-                            <div
-                              class="pro-inner-item"
-                              role="button"
-                              tabindex="0"
-                            >
-                              <span
-                                class="pro-item-content"
-                              >
-                                <a
-                                  href="#/quick-sort"
-                                >
-                                  Quick Sort
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li
-                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                        Binary Search
+                      </a>
+                    </ul>
+                  </div>
+                </li>
+                <li
+                  class="sc-eDWCr ffSMgA sub-menu menu-item"
+                >
+                  <a
+                    class="sc-pyfCe lkTtqM menu-anchor"
                   >
-                    <div
-                      class="pro-inner-item"
-                      role="button"
-                      tabindex="0"
+                    <span
+                      class="sc-gKPRtg ktVuSn menu-label"
+                    >
+                      Sorting
+                    </span>
+                    <span
+                      class="sc-kDvujY hUHiae expand-icon"
                     >
                       <span
-                        class="pro-item-content"
-                      >
-                        Binary Tree
-                      </span>
-                      <span
-                        class="pro-arrow-wrapper"
-                      >
-                        <span
-                          class="pro-arrow"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="react-slidedown pro-inner-list-item closed"
-                      style="height: 0px;"
-                    >
-                      <div>
-                        <ul>
-                          <li
-                            class="pro-menu-item"
-                          >
-                            <div
-                              class="pro-inner-item"
-                              role="button"
-                              tabindex="0"
-                            >
-                              <span
-                                class="pro-item-content"
-                              >
-                                <a
-                                  href="#/binary-tree"
-                                >
-                                  BFS and DFS Traversal
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li
-                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                        class="sc-ipEyDJ jFdoiu"
+                      />
+                    </span>
+                  </a>
+                  <div
+                    class="sc-jSUZER daWgIu sub-menu-content"
                   >
-                    <div
-                      class="pro-inner-item"
-                      role="button"
-                      tabindex="0"
+                    <ul
+                      class="sc-eDvSVe gnJkew"
                     >
-                      <span
-                        class="pro-item-content"
+                      <a
+                        class="d-block text-center p-1 text-decoration-none"
+                        href="#/bubble-sort"
+                        level="1"
                       >
-                        Cryptography
-                      </span>
-                      <span
-                        class="pro-arrow-wrapper"
+                        Bubble Sort
+                      </a>
+                      <a
+                        class="d-block text-center p-1 text-decoration-none"
+                        href="#/quick-sort"
+                        level="1"
                       >
-                        <span
-                          class="pro-arrow"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="react-slidedown pro-inner-list-item closed"
-                      style="height: 0px;"
-                    >
-                      <div>
-                        <ul>
-                          <li
-                            class="pro-menu-item"
-                          >
-                            <div
-                              class="pro-inner-item"
-                              role="button"
-                              tabindex="0"
-                            >
-                              <span
-                                class="pro-item-content"
-                              >
-                                <a
-                                  href="#/caesar-cipher"
-                                >
-                                  Caesar Cipher
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                  <li
-                    class="pro-menu-item pro-sub-menu bg-primary text-white"
+                        Quick Sort
+                      </a>
+                    </ul>
+                  </div>
+                </li>
+                <li
+                  class="sc-eDWCr ffSMgA sub-menu menu-item"
+                >
+                  <a
+                    class="sc-pyfCe lkTtqM menu-anchor"
                   >
-                    <div
-                      class="pro-inner-item"
-                      role="button"
-                      tabindex="0"
+                    <span
+                      class="sc-gKPRtg ktVuSn menu-label"
+                    >
+                      Binary Tree
+                    </span>
+                    <span
+                      class="sc-kDvujY hUHiae expand-icon"
                     >
                       <span
-                        class="pro-item-content"
-                      >
-                        Computer Graphics
-                      </span>
-                      <span
-                        class="pro-arrow-wrapper"
-                      >
-                        <span
-                          class="pro-arrow"
-                        />
-                      </span>
-                    </div>
-                    <div
-                      class="react-slidedown pro-inner-list-item closed"
-                      style="height: 0px;"
+                        class="sc-ipEyDJ jFdoiu"
+                      />
+                    </span>
+                  </a>
+                  <div
+                    class="sc-jSUZER daWgIu sub-menu-content"
+                  >
+                    <ul
+                      class="sc-eDvSVe gnJkew"
                     >
-                      <div>
-                        <ul>
-                          <li
-                            class="pro-menu-item"
-                          >
-                            <div
-                              class="pro-inner-item"
-                              role="button"
-                              tabindex="0"
-                            >
-                              <span
-                                class="pro-item-content"
-                              >
-                                <a
-                                  href="#/flood-fill"
-                                >
-                                  Flood Fill
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </nav>
-            </div>
+                      <a
+                        class="d-block text-center p-1 text-decoration-none"
+                        href="#/binary-tree"
+                        level="1"
+                      >
+                        BFS and DFS Traversal
+                      </a>
+                    </ul>
+                  </div>
+                </li>
+                <li
+                  class="sc-eDWCr ffSMgA sub-menu menu-item"
+                >
+                  <a
+                    class="sc-pyfCe lkTtqM menu-anchor"
+                  >
+                    <span
+                      class="sc-gKPRtg ktVuSn menu-label"
+                    >
+                      Cryptography
+                    </span>
+                    <span
+                      class="sc-kDvujY hUHiae expand-icon"
+                    >
+                      <span
+                        class="sc-ipEyDJ jFdoiu"
+                      />
+                    </span>
+                  </a>
+                  <div
+                    class="sc-jSUZER daWgIu sub-menu-content"
+                  >
+                    <ul
+                      class="sc-eDvSVe gnJkew"
+                    >
+                      <a
+                        class="d-block text-center p-1 text-decoration-none"
+                        href="#/caesar-cipher"
+                        level="1"
+                      >
+                        Caesar Cipher
+                      </a>
+                    </ul>
+                  </div>
+                </li>
+                <li
+                  class="sc-eDWCr ffSMgA sub-menu menu-item"
+                >
+                  <a
+                    class="sc-pyfCe lkTtqM menu-anchor"
+                  >
+                    <span
+                      class="sc-gKPRtg ktVuSn menu-label"
+                    >
+                      Computer Graphics
+                    </span>
+                    <span
+                      class="sc-kDvujY hUHiae expand-icon"
+                    >
+                      <span
+                        class="sc-ipEyDJ jFdoiu"
+                      />
+                    </span>
+                  </a>
+                  <div
+                    class="sc-jSUZER daWgIu sub-menu-content"
+                  >
+                    <ul
+                      class="sc-eDvSVe gnJkew"
+                    >
+                      <a
+                        class="d-block text-center p-1 text-decoration-none"
+                        href="#/flood-fill"
+                        level="1"
+                      >
+                        Flood Fill
+                      </a>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <div
-            aria-label="overlay"
-            class="overlay"
-            role="button"
-            tabindex="0"
-          />
-        </div>
+        </aside>
       </div>
       <div
         class="col-md-9 col-lg-10"

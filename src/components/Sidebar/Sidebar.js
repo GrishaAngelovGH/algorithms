@@ -1,40 +1,31 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { Sidebar, Menu, SubMenu } from 'react-pro-sidebar'
 
-import {
-    ProSidebar, SidebarHeader,
-    Menu, MenuItem, SubMenu
-} from 'react-pro-sidebar'
-
-import 'react-pro-sidebar/dist/css/styles.css'
 import './Sidebar.css'
 
-const SubMenuItem = ({ id, open, subMenuTitle, menuItems, onOpenChange }) => {
+export const SubMenuWrapper = ({ subMenuTitle, open, menuItems }) => {
+    const [isOpen, setIsOpen] = useState(open)
 
-    const handleOpenChange = () => {
-        onOpenChange(id)
+    const handleOpenChange = openValue => {
+        setIsOpen(openValue)
     }
 
     return (
-        <SubMenu
-            title={subMenuTitle}
-            open={open}
-            className='bg-primary text-white'
-            onOpenChange={handleOpenChange}
-        >
+        <SubMenu label={subMenuTitle} open={isOpen} onOpenChange={handleOpenChange}>
             {
-                menuItems.map(v => (
-                    <MenuItem key={v.title}>
-                        <Link to={v.link}>{v.title}</Link>
-                    </MenuItem>
+                menuItems.map((v, i) => (
+                    <Link key={i} className="d-block text-center p-1 text-decoration-none" to={v.link}>
+                        {v.title}
+                    </Link>
                 ))
             }
         </SubMenu>
     )
 }
 
-const Sidebar = () => {
-    const [menu, setMenu] = useState([
+const SidebarWrapper = () => {
+    const menu = [
         {
             id: 1,
             subMenuTitle: 'Searching',
@@ -77,41 +68,25 @@ const Sidebar = () => {
                 { link: '/flood-fill', title: 'Flood Fill' }
             ]
         }
-    ])
-
-    const handleOpenChange = id => {
-        const newMenu = menu.map(v => {
-            if (v.id === id) {
-                return {
-                    ...v,
-                    open: true
-                }
-            }
-
-            return {
-                ...v,
-                open: false
-            }
-        })
-
-        setMenu(newMenu)
-    }
+    ]
 
     return (
-        <ProSidebar>
-            <SidebarHeader>
-                <h3 className='text-white bg-primary text-center p-2'>Algorithms</h3>
-            </SidebarHeader>
-
-            <Menu iconShape='square'>
+        <Sidebar width="230px" style={{ zIndex: 100 }} backgroundColor="dodgerblue">
+            <h3 className="text-white bg-primary text-center p-2">Algorithms</h3>
+            <Menu>
                 {
-                    menu.map(subMenu => (
-                        <SubMenuItem key={subMenu.subMenuTitle} {...subMenu} onOpenChange={handleOpenChange} />
+                    menu.map(v => (
+                        <SubMenuWrapper
+                            key={v.id}
+                            open={v.open}
+                            menuItems={v.menuItems}
+                            subMenuTitle={v.subMenuTitle}
+                        />
                     ))
                 }
             </Menu>
-        </ProSidebar>
+        </Sidebar>
     )
 }
 
-export default Sidebar
+export default SidebarWrapper
