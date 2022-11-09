@@ -6,14 +6,14 @@ Object {
   "baseElement": <body>
     <div>
       <aside
-        class="sc-gswNZR licquX sidebar"
-        data-testid="sidebar-test-id"
+        class="ps-sidebar-root css-1qqt2yo"
+        data-testid="ps-sidebar-root-test-id"
         style="z-index: 100;"
         width="230px"
       >
         <div
-          class="sc-dkrFOg gQwXYT sidebar-inner"
-          data-testid="inner-sidebar-test-id"
+          class="ps-sidebar-container css-1o85esu"
+          data-testid="ps-sidebar-container-test-id"
         >
           <h3
             class="text-white bg-primary text-center p-2"
@@ -21,37 +21,39 @@ Object {
             Algorithms
           </h3>
           <nav
-            class="menu"
+            class="ps-menu-root css-vj11vy"
           >
             <ul
-              class="sc-eDvSVe gnJkew"
+              class="css-ewdv3l"
             >
               <li
-                class="sc-eDWCr ffSMgA sub-menu menu-item open"
+                class="ps-menuitem-root ps-submenu-root ps-open css-1642kfo"
               >
                 <a
-                  class="sc-pyfCe lkTtqM menu-anchor"
+                  class="ps-menu-button css-1bdadyq"
+                  data-testid="ps-menu-button-test-id"
                 >
                   <span
-                    class="sc-gKPRtg ktVuSn menu-label"
+                    class="ps-menu-label css-12w9als"
                   >
                     Searching
                   </span>
                   <span
-                    class="sc-kDvujY hUHiae expand-icon"
+                    class="ps-submenu-expand-icon css-1cuxlhl"
                   >
                     <span
-                      class="sc-ipEyDJ bqvrAb"
+                      class="css-jn69v9"
                       open=""
                     />
                   </span>
                 </a>
                 <div
-                  class="sc-jSUZER oVBfl sub-menu-content"
+                  class="ps-submenu-content css-edu7i6"
+                  data-testid="ps-submenu-content-test-id"
                   open=""
                 >
                   <ul
-                    class="sc-eDvSVe gnJkew"
+                    class="css-ewdv3l"
                   >
                     <a
                       class="d-block text-center p-1 text-decoration-none"
@@ -71,29 +73,31 @@ Object {
                 </div>
               </li>
               <li
-                class="sc-eDWCr ffSMgA sub-menu menu-item"
+                class="ps-menuitem-root ps-submenu-root css-1642kfo"
               >
                 <a
-                  class="sc-pyfCe lkTtqM menu-anchor"
+                  class="ps-menu-button css-1bdadyq"
+                  data-testid="ps-menu-button-test-id"
                 >
                   <span
-                    class="sc-gKPRtg ktVuSn menu-label"
+                    class="ps-menu-label css-12w9als"
                   >
                     Sorting
                   </span>
                   <span
-                    class="sc-kDvujY hUHiae expand-icon"
+                    class="ps-submenu-expand-icon css-1cuxlhl"
                   >
                     <span
-                      class="sc-ipEyDJ jFdoiu"
+                      class="css-honxw6"
                     />
                   </span>
                 </a>
                 <div
-                  class="sc-jSUZER daWgIu sub-menu-content"
+                  class="ps-submenu-content css-z5rm24"
+                  data-testid="ps-submenu-content-test-id"
                 >
                   <ul
-                    class="sc-eDvSVe gnJkew"
+                    class="css-ewdv3l"
                   >
                     <a
                       class="d-block text-center p-1 text-decoration-none"
@@ -113,29 +117,31 @@ Object {
                 </div>
               </li>
               <li
-                class="sc-eDWCr ffSMgA sub-menu menu-item"
+                class="ps-menuitem-root ps-submenu-root css-1642kfo"
               >
                 <a
-                  class="sc-pyfCe lkTtqM menu-anchor"
+                  class="ps-menu-button css-1bdadyq"
+                  data-testid="ps-menu-button-test-id"
                 >
                   <span
-                    class="sc-gKPRtg ktVuSn menu-label"
+                    class="ps-menu-label css-12w9als"
                   >
                     Binary Tree
                   </span>
                   <span
-                    class="sc-kDvujY hUHiae expand-icon"
+                    class="ps-submenu-expand-icon css-1cuxlhl"
                   >
                     <span
-                      class="sc-ipEyDJ jFdoiu"
+                      class="css-honxw6"
                     />
                   </span>
                 </a>
                 <div
-                  class="sc-jSUZER daWgIu sub-menu-content"
+                  class="ps-submenu-content css-z5rm24"
+                  data-testid="ps-submenu-content-test-id"
                 >
                   <ul
-                    class="sc-eDvSVe gnJkew"
+                    class="css-ewdv3l"
                   >
                     <a
                       class="d-block text-center p-1 text-decoration-none"
@@ -148,29 +154,31 @@ Object {
                 </div>
               </li>
               <li
-                class="sc-eDWCr ffSMgA sub-menu menu-item"
+                class="ps-menuitem-root ps-submenu-root css-1642kfo"
               >
                 <a
-                  class="sc-pyfCe lkTtqM menu-anchor"
+                  class="ps-menu-button css-1bdadyq"
+                  data-testid="ps-menu-button-test-id"
                 >
                   <span
-                    class="sc-gKPRtg ktVuSn menu-label"
+                    class="ps-menu-label css-12w9als"
                   >
                     Cryptography
                   </span>
                   <span
-                    class="sc-kDvujY hUHiae expand-icon"
+                    class="ps-submenu-expand-icon css-1cuxlhl"
                   >
                     <span
-                      class="sc-ipEyDJ jFdoiu"
+                      class="css-honxw6"
                     />
                   </span>
                 </a>
                 <div
-                  class="sc-jSUZER daWgIu sub-menu-content"
+                  class="ps-submenu-content css-z5rm24"
+                  data-testid="ps-submenu-content-test-id"
                 >
                   <ul
-                    class="sc-eDvSVe gnJkew"
+                    class="css-ewdv3l"
                   >
                     <a
                       class="d-block text-center p-1 text-decoration-none"
@@ -183,29 +191,31 @@ Object {
                 </div>
               </li>
               <li
-                class="sc-eDWCr ffSMgA sub-menu menu-item"
+                class="ps-menuitem-root ps-submenu-root css-1642kfo"
               >
                 <a
-                  class="sc-pyfCe lkTtqM menu-anchor"
+                  class="ps-menu-button css-1bdadyq"
+                  data-testid="ps-menu-button-test-id"
                 >
                   <span
-                    class="sc-gKPRtg ktVuSn menu-label"
+                    class="ps-menu-label css-12w9als"
                   >
                     Computer Graphics
                   </span>
                   <span
-                    class="sc-kDvujY hUHiae expand-icon"
+                    class="ps-submenu-expand-icon css-1cuxlhl"
                   >
                     <span
-                      class="sc-ipEyDJ jFdoiu"
+                      class="css-honxw6"
                     />
                   </span>
                 </a>
                 <div
-                  class="sc-jSUZER daWgIu sub-menu-content"
+                  class="ps-submenu-content css-z5rm24"
+                  data-testid="ps-submenu-content-test-id"
                 >
                   <ul
-                    class="sc-eDvSVe gnJkew"
+                    class="css-ewdv3l"
                   >
                     <a
                       class="d-block text-center p-1 text-decoration-none"
@@ -225,14 +235,14 @@ Object {
   </body>,
   "container": <div>
     <aside
-      class="sc-gswNZR licquX sidebar"
-      data-testid="sidebar-test-id"
+      class="ps-sidebar-root css-1qqt2yo"
+      data-testid="ps-sidebar-root-test-id"
       style="z-index: 100;"
       width="230px"
     >
       <div
-        class="sc-dkrFOg gQwXYT sidebar-inner"
-        data-testid="inner-sidebar-test-id"
+        class="ps-sidebar-container css-1o85esu"
+        data-testid="ps-sidebar-container-test-id"
       >
         <h3
           class="text-white bg-primary text-center p-2"
@@ -240,37 +250,39 @@ Object {
           Algorithms
         </h3>
         <nav
-          class="menu"
+          class="ps-menu-root css-vj11vy"
         >
           <ul
-            class="sc-eDvSVe gnJkew"
+            class="css-ewdv3l"
           >
             <li
-              class="sc-eDWCr ffSMgA sub-menu menu-item open"
+              class="ps-menuitem-root ps-submenu-root ps-open css-1642kfo"
             >
               <a
-                class="sc-pyfCe lkTtqM menu-anchor"
+                class="ps-menu-button css-1bdadyq"
+                data-testid="ps-menu-button-test-id"
               >
                 <span
-                  class="sc-gKPRtg ktVuSn menu-label"
+                  class="ps-menu-label css-12w9als"
                 >
                   Searching
                 </span>
                 <span
-                  class="sc-kDvujY hUHiae expand-icon"
+                  class="ps-submenu-expand-icon css-1cuxlhl"
                 >
                   <span
-                    class="sc-ipEyDJ bqvrAb"
+                    class="css-jn69v9"
                     open=""
                   />
                 </span>
               </a>
               <div
-                class="sc-jSUZER oVBfl sub-menu-content"
+                class="ps-submenu-content css-edu7i6"
+                data-testid="ps-submenu-content-test-id"
                 open=""
               >
                 <ul
-                  class="sc-eDvSVe gnJkew"
+                  class="css-ewdv3l"
                 >
                   <a
                     class="d-block text-center p-1 text-decoration-none"
@@ -290,29 +302,31 @@ Object {
               </div>
             </li>
             <li
-              class="sc-eDWCr ffSMgA sub-menu menu-item"
+              class="ps-menuitem-root ps-submenu-root css-1642kfo"
             >
               <a
-                class="sc-pyfCe lkTtqM menu-anchor"
+                class="ps-menu-button css-1bdadyq"
+                data-testid="ps-menu-button-test-id"
               >
                 <span
-                  class="sc-gKPRtg ktVuSn menu-label"
+                  class="ps-menu-label css-12w9als"
                 >
                   Sorting
                 </span>
                 <span
-                  class="sc-kDvujY hUHiae expand-icon"
+                  class="ps-submenu-expand-icon css-1cuxlhl"
                 >
                   <span
-                    class="sc-ipEyDJ jFdoiu"
+                    class="css-honxw6"
                   />
                 </span>
               </a>
               <div
-                class="sc-jSUZER daWgIu sub-menu-content"
+                class="ps-submenu-content css-z5rm24"
+                data-testid="ps-submenu-content-test-id"
               >
                 <ul
-                  class="sc-eDvSVe gnJkew"
+                  class="css-ewdv3l"
                 >
                   <a
                     class="d-block text-center p-1 text-decoration-none"
@@ -332,29 +346,31 @@ Object {
               </div>
             </li>
             <li
-              class="sc-eDWCr ffSMgA sub-menu menu-item"
+              class="ps-menuitem-root ps-submenu-root css-1642kfo"
             >
               <a
-                class="sc-pyfCe lkTtqM menu-anchor"
+                class="ps-menu-button css-1bdadyq"
+                data-testid="ps-menu-button-test-id"
               >
                 <span
-                  class="sc-gKPRtg ktVuSn menu-label"
+                  class="ps-menu-label css-12w9als"
                 >
                   Binary Tree
                 </span>
                 <span
-                  class="sc-kDvujY hUHiae expand-icon"
+                  class="ps-submenu-expand-icon css-1cuxlhl"
                 >
                   <span
-                    class="sc-ipEyDJ jFdoiu"
+                    class="css-honxw6"
                   />
                 </span>
               </a>
               <div
-                class="sc-jSUZER daWgIu sub-menu-content"
+                class="ps-submenu-content css-z5rm24"
+                data-testid="ps-submenu-content-test-id"
               >
                 <ul
-                  class="sc-eDvSVe gnJkew"
+                  class="css-ewdv3l"
                 >
                   <a
                     class="d-block text-center p-1 text-decoration-none"
@@ -367,29 +383,31 @@ Object {
               </div>
             </li>
             <li
-              class="sc-eDWCr ffSMgA sub-menu menu-item"
+              class="ps-menuitem-root ps-submenu-root css-1642kfo"
             >
               <a
-                class="sc-pyfCe lkTtqM menu-anchor"
+                class="ps-menu-button css-1bdadyq"
+                data-testid="ps-menu-button-test-id"
               >
                 <span
-                  class="sc-gKPRtg ktVuSn menu-label"
+                  class="ps-menu-label css-12w9als"
                 >
                   Cryptography
                 </span>
                 <span
-                  class="sc-kDvujY hUHiae expand-icon"
+                  class="ps-submenu-expand-icon css-1cuxlhl"
                 >
                   <span
-                    class="sc-ipEyDJ jFdoiu"
+                    class="css-honxw6"
                   />
                 </span>
               </a>
               <div
-                class="sc-jSUZER daWgIu sub-menu-content"
+                class="ps-submenu-content css-z5rm24"
+                data-testid="ps-submenu-content-test-id"
               >
                 <ul
-                  class="sc-eDvSVe gnJkew"
+                  class="css-ewdv3l"
                 >
                   <a
                     class="d-block text-center p-1 text-decoration-none"
@@ -402,29 +420,31 @@ Object {
               </div>
             </li>
             <li
-              class="sc-eDWCr ffSMgA sub-menu menu-item"
+              class="ps-menuitem-root ps-submenu-root css-1642kfo"
             >
               <a
-                class="sc-pyfCe lkTtqM menu-anchor"
+                class="ps-menu-button css-1bdadyq"
+                data-testid="ps-menu-button-test-id"
               >
                 <span
-                  class="sc-gKPRtg ktVuSn menu-label"
+                  class="ps-menu-label css-12w9als"
                 >
                   Computer Graphics
                 </span>
                 <span
-                  class="sc-kDvujY hUHiae expand-icon"
+                  class="ps-submenu-expand-icon css-1cuxlhl"
                 >
                   <span
-                    class="sc-ipEyDJ jFdoiu"
+                    class="css-honxw6"
                   />
                 </span>
               </a>
               <div
-                class="sc-jSUZER daWgIu sub-menu-content"
+                class="ps-submenu-content css-z5rm24"
+                data-testid="ps-submenu-content-test-id"
               >
                 <ul
-                  class="sc-eDvSVe gnJkew"
+                  class="css-ewdv3l"
                 >
                   <a
                     class="d-block text-center p-1 text-decoration-none"
@@ -501,35 +521,37 @@ Object {
   "baseElement": <body>
     <div>
       <nav
-        class="menu"
+        class="ps-menu-root css-vj11vy"
       >
         <ul
-          class="sc-eDvSVe gnJkew"
+          class="css-ewdv3l"
         >
           <li
-            class="sc-eDWCr ffSMgA sub-menu menu-item"
+            class="ps-menuitem-root ps-submenu-root css-1642kfo"
           >
             <a
-              class="sc-pyfCe lkTtqM menu-anchor"
+              class="ps-menu-button css-1bdadyq"
+              data-testid="ps-menu-button-test-id"
             >
               <span
-                class="sc-gKPRtg ktVuSn menu-label"
+                class="ps-menu-label css-12w9als"
               >
                 SubMenuTitle
               </span>
               <span
-                class="sc-kDvujY hUHiae expand-icon"
+                class="ps-submenu-expand-icon css-1cuxlhl"
               >
                 <span
-                  class="sc-ipEyDJ jFdoiu"
+                  class="css-honxw6"
                 />
               </span>
             </a>
             <div
-              class="sc-jSUZER daWgIu sub-menu-content"
+              class="ps-submenu-content css-z5rm24"
+              data-testid="ps-submenu-content-test-id"
             >
               <ul
-                class="sc-eDvSVe gnJkew"
+                class="css-ewdv3l"
               >
                 <a
                   class="d-block text-center p-1 text-decoration-none"
@@ -547,35 +569,37 @@ Object {
   </body>,
   "container": <div>
     <nav
-      class="menu"
+      class="ps-menu-root css-vj11vy"
     >
       <ul
-        class="sc-eDvSVe gnJkew"
+        class="css-ewdv3l"
       >
         <li
-          class="sc-eDWCr ffSMgA sub-menu menu-item"
+          class="ps-menuitem-root ps-submenu-root css-1642kfo"
         >
           <a
-            class="sc-pyfCe lkTtqM menu-anchor"
+            class="ps-menu-button css-1bdadyq"
+            data-testid="ps-menu-button-test-id"
           >
             <span
-              class="sc-gKPRtg ktVuSn menu-label"
+              class="ps-menu-label css-12w9als"
             >
               SubMenuTitle
             </span>
             <span
-              class="sc-kDvujY hUHiae expand-icon"
+              class="ps-submenu-expand-icon css-1cuxlhl"
             >
               <span
-                class="sc-ipEyDJ jFdoiu"
+                class="css-honxw6"
               />
             </span>
           </a>
           <div
-            class="sc-jSUZER daWgIu sub-menu-content"
+            class="ps-submenu-content css-z5rm24"
+            data-testid="ps-submenu-content-test-id"
           >
             <ul
-              class="sc-eDvSVe gnJkew"
+              class="css-ewdv3l"
             >
               <a
                 class="d-block text-center p-1 text-decoration-none"
