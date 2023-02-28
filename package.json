@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint 'src/**/*.js'",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "eslintConfig": {
     "extends": [
@@ -42,9 +44,12 @@
     ]
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
     "jest-watch-typeahead": "^0.6.5"
   },
   "jest": {
-    "transformIgnorePatterns": ["<rootDir>/node_modules/(?!d3|rc)"]
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!d3|rc)"
+    ]
   }
 }

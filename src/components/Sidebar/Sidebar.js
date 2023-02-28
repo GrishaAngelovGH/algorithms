@@ -15,7 +15,7 @@ export const SubMenuWrapper = ({ subMenuTitle, open, menuItems }) => {
         <SubMenu label={subMenuTitle} open={isOpen} onOpenChange={handleOpenChange}>
             {
                 menuItems.map((v, i) => (
-                    <Link key={i} className="d-block text-center p-1 text-decoration-none" to={v.link}>
+                    <Link key={i} className='d-block text-center p-1 text-decoration-none' to={v.link}>
                         {v.title}
                     </Link>
                 ))
@@ -71,8 +71,8 @@ const SidebarWrapper = () => {
     ]
 
     return (
-        <Sidebar width="230px" style={{ zIndex: 100 }} backgroundColor="dodgerblue">
-            <h3 className="text-white bg-primary text-center p-2">Algorithms</h3>
+        <Sidebar width='230px' style={{ zIndex: 100 }} backgroundColor='dodgerblue'>
+            <h3 className='text-white bg-primary text-center p-2'>Algorithms</h3>
             <Menu>
                 {
                     menu.map(v => (

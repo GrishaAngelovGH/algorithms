@@ -16,12 +16,12 @@ const SliderWrapper = ({ max, value, disabled, onChange }) => (
             width: 28,
             marginLeft: -14,
             marginTop: -14,
-            backgroundColor: "green",
+            backgroundColor: 'green',
             border: 0,
             opacity: 1
         }}
         trackStyle={{
-            background: "green"
+            background: 'green'
         }}
     />
 )
