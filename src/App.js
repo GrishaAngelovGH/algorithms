@@ -16,61 +16,24 @@ import BinaryTree from './components/algorithms/BinaryTree'
 import CaesarCipher from './components/algorithms/CaesarCipher'
 import FloodFill from './components/algorithms/FloodFill'
 
+const layoutWith = Component => (
+  <Layout sidebar={<Sidebar />}>
+    <Component />
+  </Layout>
+)
+
 function App() {
-
-  const linearSearchRoute = (
-    <Layout sidebar={<Sidebar />}>
-      <LinearSearch />
-    </Layout>
-  )
-
-  const binarySearchRoute = (
-    <Layout sidebar={<Sidebar />}>
-      <BinarySearch />
-    </Layout>
-  )
-
-  const bubbleSortRoute = (
-    <Layout sidebar={<Sidebar />}>
-      <BubbleSort />
-    </Layout>
-  )
-
-  const quickSortRoute = (
-    <Layout sidebar={<Sidebar />}>
-      <QuickSort />
-    </Layout>
-  )
-
-  const binaryTreeRoute = (
-    <Layout sidebar={<Sidebar />}>
-      <BinaryTree />
-    </Layout>
-  )
-
-  const caesarCipherRoute = (
-    <Layout sidebar={<Sidebar />}>
-      <CaesarCipher />
-    </Layout>
-  )
-
-  const floodFillRoute = (
-    <Layout sidebar={<Sidebar />}>
-      <FloodFill />
-    </Layout>
-  )
-
   return (
     <Router>
       <Routes>
         <Route exact path='/' element={<Navigate replace to='/linear-search' />} />
-        <Route path='/linear-search' element={linearSearchRoute} />
-        <Route path='/binary-search' element={binarySearchRoute} />
-        <Route path='/bubble-sort' element={bubbleSortRoute} />
-        <Route path='/quick-sort' element={quickSortRoute} />
-        <Route path='/binary-tree' element={binaryTreeRoute} />
-        <Route path='/caesar-cipher' element={caesarCipherRoute} />
-        <Route path='/flood-fill' element={floodFillRoute} />
+        <Route path='/linear-search' element={layoutWith(LinearSearch)} />
+        <Route path='/binary-search' element={layoutWith(BinarySearch)} />
+        <Route path='/bubble-sort' element={layoutWith(BubbleSort)} />
+        <Route path='/quick-sort' element={layoutWith(QuickSort)} />
+        <Route path='/binary-tree' element={layoutWith(BinaryTree)} />
+        <Route path='/caesar-cipher' element={layoutWith(CaesarCipher)} />
+        <Route path='/flood-fill' element={layoutWith(FloodFill)} />
       </Routes>
     </Router>
   )
