@@ -312,6 +312,24 @@ Object {
                         value=""
                       />
                     </div>
+                    <div
+                      class="row justify-content-center"
+                    />
+                    <div
+                      class="row justify-content-center p-3"
+                    >
+                      <div
+                        class="col-md-2"
+                      >
+                        <button
+                          class="btn btn-primary"
+                          disabled=""
+                          type="button"
+                        >
+                          Step
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -628,6 +646,24 @@ Object {
                       type="number"
                       value=""
                     />
+                  </div>
+                  <div
+                    class="row justify-content-center"
+                  />
+                  <div
+                    class="row justify-content-center p-3"
+                  >
+                    <div
+                      class="col-md-2"
+                    >
+                      <button
+                        class="btn btn-primary"
+                        disabled=""
+                        type="button"
+                      >
+                        Step
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

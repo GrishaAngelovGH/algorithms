@@ -1,4 +1,4 @@
-import { useState, Fragment } from 'react'
+import { useState } from 'react'
 
 import Button from 'react-bootstrap/Button'
 import InputGroup from 'react-bootstrap/InputGroup'
@@ -11,12 +11,14 @@ const LinearSearch = () => {
     const [criteria, setCriteria] = useState('')
     const [currentIndex, setCurrentIndex] = useState(-1)
 
-    const handleCriteriaInputChange = ({ target: { value } }) => {
-        setCriteria(!value.length ? '' : parseInt(value))
+    const handleCriteriaInputChange = ({ target: { valueAsNumber } }) => {
+        setCriteria(valueAsNumber ? valueAsNumber : '')
     }
 
     const handleStepButtonClick = () => {
-        setCurrentIndex(index => index < elements.length - 1 ? index + 1 : 0)
+        setCurrentIndex(
+            currentIndex < elements.length - 1 ? currentIndex + 1 : 0
+        )
     }
 
     const handleResetButtonClick = () => {
@@ -26,9 +28,12 @@ const LinearSearch = () => {
     }
 
     const handleRandomFillButtonClick = () => {
-        const newElements = new Array(10).fill(0).map(() => Math.floor(Math.random() * 100)).filter(v => v > 0)
-
-        setElements(newElements)
+        setElements(
+            new Array(10)
+                .fill(0)
+                .map(() => Math.floor(Math.random() * 100))
+                .filter(v => v > 0)
+        )
     }
 
     return (
@@ -56,52 +61,47 @@ const LinearSearch = () => {
                                 />
                             </InputGroup>
 
-                            {
-                                elements.length > 0 && (
-                                    <Fragment>
-                                        <div className='row justify-content-center'>
-                                            {
-                                                elements.map((v, i) => {
-                                                    const boxColor = currentIndex >= 0 && v === elements[currentIndex] ? 'bg-primary' : 'bg-success'
+                            <div className='row justify-content-center'>
+                                {
+                                    elements.map((v, i) => {
+                                        const boxColor = currentIndex >= 0 && v === elements[currentIndex] ? 'bg-primary' : 'bg-success'
 
-                                                    return (
-                                                        <div key={i} className={`col-md-1 mx-1 text-white rounded ${boxColor}`}>
-                                                            {v}
-                                                        </div>
-                                                    )
-                                                })
-                                            }
-                                        </div>
-                                        <div className='row justify-content-center p-3'>
-                                            <div className='col-md-1'>
-                                                {
-                                                    elements[currentIndex] !== criteria && (
-                                                        <Button disabled={!criteria} onClick={handleStepButtonClick}>
-                                                            Step
-                                                        </Button>
-                                                    )
-                                                }
-                                                {
-                                                    elements[currentIndex] === criteria && (
-                                                        <Button onClick={handleResetButtonClick}>
-                                                            Reset
-                                                        </Button>
-                                                    )
-                                                }
+                                        return (
+                                            <div key={i} className={`col-md-1 mx-1 text-white rounded ${boxColor}`}>
+                                                {v}
                                             </div>
-                                            {
-                                                currentIndex >= 0 && (
-                                                    <div className='bg-primary p-2 mt-3 rounded'>
-                                                        <h3 className='text-white'>Current element: {elements[currentIndex]}</h3>
-                                                        <h3 className='text-white'>Criteria: {criteria}</h3>
-                                                        <h3 className='text-white'>Found match: {`${elements[currentIndex] === criteria}`}</h3>
-                                                    </div>
-                                                )
-                                            }
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            <div className='row justify-content-center p-3'>
+                                <div className='col-md-2'>
+                                    {
+                                        elements[currentIndex] !== criteria && (
+                                            <Button disabled={!criteria} onClick={handleStepButtonClick}>
+                                                Step
+                                            </Button>
+                                        )
+                                    }
+                                    {
+                                        elements[currentIndex] === criteria && (
+                                            <Button onClick={handleResetButtonClick}>
+                                                Reset
+                                            </Button>
+                                        )
+                                    }
+                                </div>
+                                {
+                                    currentIndex >= 0 && (
+                                        <div className='bg-primary p-2 mt-3 rounded'>
+                                            <h3 className='text-white'>Current element: {elements[currentIndex]}</h3>
+                                            <h3 className='text-white'>Criteria: {criteria}</h3>
+                                            <h3 className='text-white'>Found match: {`${elements[currentIndex] === criteria}`}</h3>
                                         </div>
-                                    </Fragment>
-                                )
-                            }
+                                    )
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>
