@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import Alert from 'react-bootstrap/Alert'
 import Button from 'react-bootstrap/Button'
@@ -10,10 +10,11 @@ import WaveBackground from '../../WaveBackground'
 const BinarySearch = () => {
     const [elements, setElements] = useState([])
     const [criteria, setCriteria] = useState('')
+    const [middleIndex, setMiddleIndex] = useState(0)
     const [label, setLabel] = useState({ title: '', success: false })
 
-    const handleCriteriaInputChange = ({ target: { value } }) => {
-        setCriteria(!value.length ? '' : parseInt(value))
+    const handleCriteriaInputChange = ({ target: { valueAsNumber } }) => {
+        setCriteria(valueAsNumber ? valueAsNumber : '')
     }
 
     const handleStepButtonClick = () => {
@@ -23,21 +24,25 @@ const BinarySearch = () => {
             setLabel({ title: 'Element is not found!', success: false })
         }
 
-        const index = Math.floor(values.length / 2)
-
-        if (values[index] === criteria) {
+        if (values[middleIndex] === criteria) {
             setLabel({ title: 'Element is found!', success: true })
         }
 
-        const newElements = criteria < values[index] ? values.slice(0, index) : values.slice(index)
+        const newElements = criteria < values[middleIndex] ?
+            values.slice(0, middleIndex) : values.slice(middleIndex)
 
         setElements(newElements)
     }
 
     const handleRandomFillButtonClick = () => {
-        const newElements = new Array(10).fill(0).map(() => Math.floor(Math.random() * 100)).filter(v => v > 0)
+        setElements(
+            new Array(10)
+                .fill(0)
+                .map(() => Math.floor(Math.random() * 100))
+                .filter(v => v > 0)
+                .sort((a, b) => a - b)
+        )
 
-        setElements(newElements.sort((a, b) => a - b))
         setLabel({ title: '', success: false })
     }
 
@@ -46,6 +51,13 @@ const BinarySearch = () => {
         setCriteria('')
         setLabel({ title: '', success: false })
     }
+
+
+    useEffect(() => {
+        setMiddleIndex(
+            Math.floor(elements.length / 2)
+        )
+    }, [elements])
 
     return (
         <WaveBackground>
@@ -73,33 +85,38 @@ const BinarySearch = () => {
                                 />
                             </InputGroup>
 
-                            {
-                                !label.title.length && (
-                                    <Button onClick={handleStepButtonClick} disabled={criteria === ''}>
-                                        Step
-                                    </Button>
-                                )
-                            }
+                            <div className='row justify-content-center'>
+                                {
+                                    elements.map((v, i) => {
+                                        const middleElementClass = i === middleIndex ? 'border border-2 border-white' : ''
+                                        const elementClass = `col-md-1 mx-1 bg-success text-white rounded ${middleElementClass}`
 
-                            {
-                                label.title.length > 0 && (
-                                    <Button onClick={handleResetButtonClick}>
-                                        Reset
-                                    </Button>
-                                )
-                            }
+                                        return (
+                                            <div key={i} className={elementClass}>{v}</div>
+                                        )
+                                    })
+                                }
+                            </div>
 
-                            {
-                                elements.length > 0 && (
-                                    <div className='row justify-content-center p-3'>
-                                        {
-                                            elements.map((v, i) => (
-                                                <div key={i} className='col-md-1 mx-1 bg-success text-white rounded'>{v}</div>
-                                            ))
-                                        }
-                                    </div>
-                                )
-                            }
+                            <div className='row justify-content-center p-3'>
+                                <div className='col-md-2'>
+                                    {
+                                        !label.title.length && (
+                                            <Button onClick={handleStepButtonClick} disabled={criteria === ''}>
+                                                Step
+                                            </Button>
+                                        )
+                                    }
+
+                                    {
+                                        label.title.length > 0 && (
+                                            <Button onClick={handleResetButtonClick}>
+                                                Reset
+                                            </Button>
+                                        )
+                                    }
+                                </div>
+                            </div>
 
                             {
                                 label.title.length > 0 && (

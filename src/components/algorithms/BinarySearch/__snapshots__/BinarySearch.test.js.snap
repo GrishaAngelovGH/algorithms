@@ -76,13 +76,24 @@ Object {
                     value=""
                   />
                 </div>
-                <button
-                  class="btn btn-primary"
-                  disabled=""
-                  type="button"
+                <div
+                  class="row justify-content-center"
+                />
+                <div
+                  class="row justify-content-center p-3"
                 >
-                  Step
-                </button>
+                  <div
+                    class="col-md-2"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      disabled=""
+                      type="button"
+                    >
+                      Step
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -162,13 +173,24 @@ Object {
                   value=""
                 />
               </div>
-              <button
-                class="btn btn-primary"
-                disabled=""
-                type="button"
+              <div
+                class="row justify-content-center"
+              />
+              <div
+                class="row justify-content-center p-3"
               >
-                Step
-              </button>
+                <div
+                  class="col-md-2"
+                >
+                  <button
+                    class="btn btn-primary"
+                    disabled=""
+                    type="button"
+                  >
+                    Step
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
