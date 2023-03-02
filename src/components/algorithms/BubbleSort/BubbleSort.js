@@ -1,14 +1,18 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 
+import Button from 'react-bootstrap/Button'
 import ToggleButton from 'react-bootstrap/ToggleButton'
 
 import Legend from '../../Legend'
 import Slider from '../../Slider'
+import StepsLog from '../../StepsLog'
+import AlgorithmSteps from './AlgorithmSteps'
 import WaveBackground from '../../WaveBackground'
 
 /*
     Note: 
-    After swapping of two elements, swapped values are pushed to their corresponding array i.e. 'swappedElements'.
+    After swapping of two elements, swapped values are pushed 
+    to their corresponding array i.e. 'swappedElements'.
     They will be colored in yellow on each step of visualization.
     Then new subarray with all values (including swapped) is pushed to 'elements'.
     In that way we have the following map:
@@ -18,17 +22,18 @@ import WaveBackground from '../../WaveBackground'
 */
 
 const BubbleSort = () => {
-    const arrayRef = useRef([5, 1, 4, 2, 3])
+    let array = [5, 1, 4, 2, 3]
     const steps = 6
 
     const [step, setStep] = useState(0)
-    const [checked, setChecked] = useState(false)
-    const [elements, setElements] = useState([[...arrayRef.current]])
+    const [elements, setElements] = useState([[...array]])
     const [swappedElements, setSwappedElements] = useState([])
+    const [showAllSteps, setShowAllSteps] = useState(false)
+    const [showLogs, setShowLogs] = useState(false)
 
     const swap = (arr, i, j) => {
         [arr[i], arr[j]] = [arr[j], arr[i]]
-        arrayRef.current = [...arr]
+        array = [...arr]
 
         setSwappedElements(values => [...values, [arr[i], arr[j]]])
 
@@ -39,17 +44,24 @@ const BubbleSort = () => {
         setStep(value)
     }
 
-    const handleToggle = ({ currentTarget }) => {
-        setStep(currentTarget.checked ? steps : 0)
+    const handleToggle = ({ target: { checked } }) => {
+        setStep(checked ? steps : 0)
+        setShowAllSteps(checked)
+    }
 
-        setChecked(currentTarget.checked)
+    const handleLogsOpen = () => {
+        setShowLogs(true)
+    }
+
+    const handleLogsClose = () => {
+        setShowLogs(false)
     }
 
     useEffect(() => {
-        for (let i = 0; i < arrayRef.current.length; i++) {
-            for (let j = 0; j < arrayRef.current.length - i - 1; j++) {
-                if (arrayRef.current[j] > arrayRef.current[j + 1]) {
-                    swap(arrayRef.current, j, j + 1)
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < array.length - i - 1; j++) {
+                if (array[j] > array[j + 1]) {
+                    swap(array, j, j + 1)
                 }
             }
         }
@@ -60,20 +72,20 @@ const BubbleSort = () => {
             <h1 className='text-center text-white'>Bubble Sort</h1>
 
             {
-                Object.values(elements).map((element, i) => (
+                elements.map((row, i) => (
                     <div
                         key={i}
                         className='row g-0 justify-content-center text-center p-1 text-white fw-bold'
                     >
                         {
-                            Object.values(element).map((v, j) => {
+                            row.map((v, j) => {
                                 // skip coloring of first row of elements
                                 if (i > 0) {
                                     const isSwapped = swappedElements[i - 1].includes(v)
 
                                     // color all elements in yellow if toggle button is clicked
                                     // otherwise color elements in yellow on each step
-                                    const bgClass = checked ?
+                                    const bgClass = showAllSteps ?
                                         (isSwapped ? 'bg-warning' : 'bg-success') :
                                         (isSwapped && step === i ? 'bg-warning' : 'bg-success')
 
@@ -99,7 +111,7 @@ const BubbleSort = () => {
                 <h3 className='text-white'>Final Result</h3>
 
                 {
-                    Object.values(elements)[elements.length - 1].map((v, i) => (
+                    elements[elements.length - 1].map((v, i) => (
                         <div key={i} className='col-md-1 mx-1 bg-success rounded'>
                             {v}
                         </div>
@@ -107,8 +119,8 @@ const BubbleSort = () => {
                 }
             </div>
 
-            <div className='row g-0 justify-content-center'>
-                <div className='col-md-6'>
+            <div className='row g-0 justify-content-center align-items-center text-center'>
+                <div className='col-md-2'>
                     <Legend
                         items={[
                             { color: '#198754', title: 'Regular element' },
@@ -116,31 +128,50 @@ const BubbleSort = () => {
                         ]}
                     />
                 </div>
-            </div>
-
-            <div className='row g-0 justify-content-center'>
-                <div className='col-md-6'>
-                    <h5 className='text-center text-white'>
-                        Slide to see swapped elements on each step
-                    </h5>
-
+                <div className='col-md-2'>
                     <ToggleButton
-                        className='mb-4'
-                        id='toggle-check'
+                        className='w-100'
                         type='checkbox'
-                        variant='outline-success'
-                        checked={checked}
+                        variant='outline-primary'
+                        checked={showAllSteps}
                         onChange={handleToggle}
                     >
                         <span className='mx-1'>Show All</span>
                     </ToggleButton>
 
+                    <Button
+                        className='w-100 mt-2'
+                        variant='outline-primary'
+                        onClick={handleLogsOpen}
+                    >
+                        Algorithm Logs
+                    </Button>
+                </div>
+            </div>
+
+            <div className='row g-0 justify-content-center mt-3'>
+                <div className='col-md-6'>
                     <Slider
                         max={steps}
                         value={step}
-                        disabled={checked}
+                        disabled={showAllSteps}
                         onChange={handleSlideChange}
                     />
+
+                    <h5 className='text-center text-success fw-bold mt-2'>
+                        Slide to see swapped elements on each step
+                    </h5>
+
+                    {
+                        showLogs && (
+                            <StepsLog
+                                title={'Bubble Sort Steps'}
+                                onClose={handleLogsClose}
+                            >
+                                <AlgorithmSteps />
+                            </StepsLog>
+                        )
+                    }
                 </div>
             </div>
         </WaveBackground>
