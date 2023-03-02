@@ -9,6 +9,7 @@ import WaveBackground from '../../WaveBackground'
 const BinaryTree = () => {
     const [bfsActive, setBfsActive] = useState(false)
     const [dfsActive, setDfsActive] = useState(false)
+    const [values, setValues] = useState([])
     const treeRef = useRef()
 
     const treeData = {
@@ -82,11 +83,13 @@ const BinaryTree = () => {
         ]
 
         nodes.forEach((v, i) => {
-            (function (v, i) {
-                setTimeout(function () {
-                    elements[v - 1].classList.add('node__branch__visited')
-                }, i * 1000)
-            })(v, i)
+            setTimeout(() => {
+                const element = elements[v - 1]
+                const value = element.querySelector('.rd3t-label__title').innerHTML
+
+                element.classList.add('node__branch__visited')
+                setValues(oldValues => [...oldValues, value])
+            }, i * 1000)
         })
     }
 
@@ -102,6 +105,7 @@ const BinaryTree = () => {
 
         setBfsActive(false)
         setDfsActive(false)
+        setValues([])
     }
 
     return (
@@ -132,7 +136,7 @@ const BinaryTree = () => {
 
                     <div className='row justify-content-center'>
                         <div className='col-md-12'>
-                            <Tree data={treeData} ref={treeRef} />
+                            <Tree ref={treeRef} data={treeData} values={values} />
                         </div>
                     </div>
                 </div>

@@ -10,6 +10,36 @@ Object {
         id="treeWrapper"
       >
         <div />
+        <span
+          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        >
+          1
+        </span>
+        <span
+          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        >
+          2
+        </span>
+        <span
+          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        >
+          3
+        </span>
+        <span
+          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        >
+          4
+        </span>
+        <span
+          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        >
+          5
+        </span>
+        <span
+          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        >
+          6
+        </span>
       </div>
     </div>
   </body>,
@@ -19,6 +49,36 @@ Object {
       id="treeWrapper"
     >
       <div />
+      <span
+        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+      >
+        1
+      </span>
+      <span
+        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+      >
+        2
+      </span>
+      <span
+        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+      >
+        3
+      </span>
+      <span
+        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+      >
+        4
+      </span>
+      <span
+        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+      >
+        5
+      </span>
+      <span
+        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+      >
+        6
+      </span>
     </div>
   </div>,
   "debug": [Function],

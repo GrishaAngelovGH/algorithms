@@ -22,7 +22,7 @@ const straightPathFunc = (linkDatum, orientation) => {
         : `M${source.x},${source.y}L${target.x},${target.y}`
 }
 
-const TreeWrapper = React.forwardRef(({ data }, ref) => {
+const TreeWrapper = React.forwardRef(({ data, values }, ref) => {
     const [translate, setTranslate] = useState({ x: 0, y: 0 })
 
     useEffect(() => {
@@ -45,6 +45,11 @@ const TreeWrapper = React.forwardRef(({ data }, ref) => {
                 translate={translate}
                 renderCustomNodeElement={({ nodeDatum: { name } }) => (<TreeNode value={name} />)}
             />
+            {
+                values.map(v => (
+                    <span key={v} className='badge rounded-pill bg-light text-success mx-2 fs-5 shadow'>{v}</span>
+                ))
+            }
         </div>
     )
 })
