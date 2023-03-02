@@ -54,399 +54,360 @@ Object {
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
-                  />
-                </div>
-                <div
-                  class="row justify-content-center"
-                >
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
-                  />
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
-                  />
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
                 <div
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
                 <div
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
                 <div
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
                 <div
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
                 <div
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
                 <div
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
-                  <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border"
-                  >
-                     
-                  </div>
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border "
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
                 <div
                   class="row justify-content-center"
                 >
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border "
+                    style="height: 25px;"
                   />
                   <div
-                    class="col-md-1 border bg-secondary"
-                    style="height: 26px;"
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                </div>
+                <div
+                  class="row justify-content-center"
+                >
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
+                  />
+                  <div
+                    class="col-md-1 border bg-primary"
+                    style="height: 25px;"
                   />
                 </div>
               </div>
@@ -480,13 +441,33 @@ Object {
               class="row justify-content-center m-3"
             >
               <div
-                class="col-md-6"
+                class="col-md-8"
               >
-                <h4
-                  class="text-white bg-primary p-2 rounded"
+                <div
+                  aria-atomic="true"
+                  aria-live="assertive"
+                  class="fade toast w-100 show"
+                  role="alert"
                 >
-                  Flood fill is an algorithm mainly used to determine a bounded area connected to a given node in a multi-dimensional array. It is a close concept to the bucket tool in paint programs.
-                </h4>
+                  <div
+                    class="toast-header text-bg-light"
+                  >
+                    <h5
+                      class="m-0"
+                    >
+                      Algorithm Description
+                    </h5>
+                  </div>
+                  <div
+                    class="toast-body"
+                  >
+                    <h5
+                      class="m-0"
+                    >
+                      Flood fill is an algorithm mainly used to determine a bounded area connected to a given node in a multi-dimensional array. It is a close concept to the bucket tool in paint programs.
+                    </h5>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -544,399 +525,360 @@ Object {
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
-                />
-              </div>
-              <div
-                class="row justify-content-center"
-              >
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
-                />
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
-                />
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
               <div
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
               <div
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
               <div
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
               <div
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
               <div
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
               <div
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
-                <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border"
-                >
-                   
-                </div>
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border "
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
               <div
                 class="row justify-content-center"
               >
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border "
+                  style="height: 25px;"
                 />
                 <div
-                  class="col-md-1 border bg-secondary"
-                  style="height: 26px;"
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+              </div>
+              <div
+                class="row justify-content-center"
+              >
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
+                />
+                <div
+                  class="col-md-1 border bg-primary"
+                  style="height: 25px;"
                 />
               </div>
             </div>
@@ -970,13 +912,33 @@ Object {
             class="row justify-content-center m-3"
           >
             <div
-              class="col-md-6"
+              class="col-md-8"
             >
-              <h4
-                class="text-white bg-primary p-2 rounded"
+              <div
+                aria-atomic="true"
+                aria-live="assertive"
+                class="fade toast w-100 show"
+                role="alert"
               >
-                Flood fill is an algorithm mainly used to determine a bounded area connected to a given node in a multi-dimensional array. It is a close concept to the bucket tool in paint programs.
-              </h4>
+                <div
+                  class="toast-header text-bg-light"
+                >
+                  <h5
+                    class="m-0"
+                  >
+                    Algorithm Description
+                  </h5>
+                </div>
+                <div
+                  class="toast-body"
+                >
+                  <h5
+                    class="m-0"
+                  >
+                    Flood fill is an algorithm mainly used to determine a bounded area connected to a given node in a multi-dimensional array. It is a close concept to the bucket tool in paint programs.
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>

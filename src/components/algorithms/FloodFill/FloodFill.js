@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import Button from 'react-bootstrap/Button'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 
+import AlgorithmDescription from '../../AlgorithmDescription'
 import WaveBackground from '../../WaveBackground'
 
 const FloodFill = () => {
@@ -83,21 +84,10 @@ const FloodFill = () => {
                                     <div key={rowIndex} className='row justify-content-center'>
                                         {
                                             row.map((v, colIndex) => {
-
-                                                if (visitedGrid[rowIndex][colIndex]) {
-                                                    return (
-                                                        <div key={colIndex} className='col-md-1 border bg-success' style={{ height: 26 }}></div>
-                                                    )
-                                                }
-
-                                                if (v === '#') {
-                                                    return (
-                                                        <div key={colIndex} className='col-md-1 border bg-secondary' style={{ height: 26 }}></div>
-                                                    )
-                                                }
+                                                const bgClass = visitedGrid[rowIndex][colIndex] ? 'bg-light' : v === '#' ? 'bg-primary' : ''
 
                                                 return (
-                                                    <div key={colIndex} className='col-md-1 border'>{v}</div>
+                                                    <div key={colIndex} className={`col-md-1 border ${bgClass}`} style={{ height: 25 }}></div>
                                                 )
                                             })
                                         }
@@ -117,12 +107,12 @@ const FloodFill = () => {
                     </div>
 
                     <div className='row justify-content-center m-3'>
-                        <div className='col-md-6'>
-                            <h4 className='text-white bg-primary p-2 rounded'>
+                        <div className='col-md-8'>
+                            <AlgorithmDescription>
                                 Flood fill is an algorithm mainly used to determine a bounded area connected
                                 to a given node in a multi-dimensional array.
                                 It is a close concept to the bucket tool in paint programs.
-                            </h4>
+                            </AlgorithmDescription>
                         </div>
                     </div>
                 </div>

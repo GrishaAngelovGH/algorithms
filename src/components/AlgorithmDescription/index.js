@@ -1,3 +1,3 @@
-import AlgorithmDescription from "./AlgorithmDescription"
+import AlgorithmDescription from './AlgorithmDescription'
 
 export default AlgorithmDescription
