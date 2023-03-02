@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 
 import TextArea from './TextArea'
+import AlgorithmDescription from '../../AlgorithmDescription'
 import WaveBackground from '../../WaveBackground'
 
 const rot13 = str => {
@@ -68,10 +69,10 @@ const CaesarCipher = () => {
 
                     <div className='row justify-content-center m-3'>
                         <div className='col-md-7'>
-                            <h4 className='text-white bg-primary p-2 rounded'>
+                            <AlgorithmDescription>
                                 Caesar Cipher algorithm will replace each letter in given word
                                 with a different one, a fixed number of places down the alphabet ( 13 in this case )
-                            </h4>
+                            </AlgorithmDescription>
                         </div>
                     </div>
                 </div>

@@ -124,11 +124,31 @@ Object {
               <div
                 class="col-md-7"
               >
-                <h4
-                  class="text-white bg-primary p-2 rounded"
+                <div
+                  aria-atomic="true"
+                  aria-live="assertive"
+                  class="fade toast w-100 show"
+                  role="alert"
                 >
-                  Caesar Cipher algorithm will replace each letter in given word with a different one, a fixed number of places down the alphabet ( 13 in this case )
-                </h4>
+                  <div
+                    class="toast-header text-bg-light"
+                  >
+                    <h5
+                      class="m-0"
+                    >
+                      Algorithm Description
+                    </h5>
+                  </div>
+                  <div
+                    class="toast-body"
+                  >
+                    <h5
+                      class="m-0"
+                    >
+                      Caesar Cipher algorithm will replace each letter in given word with a different one, a fixed number of places down the alphabet ( 13 in this case )
+                    </h5>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -256,11 +276,31 @@ Object {
             <div
               class="col-md-7"
             >
-              <h4
-                class="text-white bg-primary p-2 rounded"
+              <div
+                aria-atomic="true"
+                aria-live="assertive"
+                class="fade toast w-100 show"
+                role="alert"
               >
-                Caesar Cipher algorithm will replace each letter in given word with a different one, a fixed number of places down the alphabet ( 13 in this case )
-              </h4>
+                <div
+                  class="toast-header text-bg-light"
+                >
+                  <h5
+                    class="m-0"
+                  >
+                    Algorithm Description
+                  </h5>
+                </div>
+                <div
+                  class="toast-body"
+                >
+                  <h5
+                    class="m-0"
+                  >
+                    Caesar Cipher algorithm will replace each letter in given word with a different one, a fixed number of places down the alphabet ( 13 in this case )
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
