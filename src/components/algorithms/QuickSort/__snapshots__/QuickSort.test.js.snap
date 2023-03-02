@@ -276,10 +276,10 @@ Object {
           </div>
         </div>
         <div
-          class="row g-0 justify-content-center"
+          class="row g-0 justify-content-center align-items-center text-center"
         >
           <div
-            class="col-md-6"
+            class="col-md-2"
           >
             <div
               class="item-legend text-white"
@@ -315,20 +315,11 @@ Object {
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="row g-0 justify-content-center"
-        >
           <div
-            class="col-md-6"
+            class="col-md-2"
           >
-            <h5
-              class="text-center text-white"
-            >
-              Slide to see swapped elements on each step
-            </h5>
             <label
-              class="mb-4 btn btn-outline-success"
+              class="w-100 btn btn-outline-primary"
               id="toggle-check"
             >
               <input
@@ -343,11 +334,19 @@ Object {
               </span>
             </label>
             <button
-              class="mb-4 mx-1 btn btn-outline-primary"
+              class="w-100 mt-2 btn btn-outline-primary"
               type="button"
             >
               Algorithm Logs
             </button>
+          </div>
+        </div>
+        <div
+          class="row g-0 justify-content-center mt-3"
+        >
+          <div
+            class="col-md-6"
+          >
             <div
               class="rc-slider rc-slider-horizontal"
             >
@@ -373,6 +372,11 @@ Object {
                 tabindex="0"
               />
             </div>
+            <h5
+              class="text-center text-success fw-bold mt-2"
+            >
+              Slide to see swapped elements on each step
+            </h5>
           </div>
         </div>
       </div>
@@ -650,10 +654,10 @@ Object {
         </div>
       </div>
       <div
-        class="row g-0 justify-content-center"
+        class="row g-0 justify-content-center align-items-center text-center"
       >
         <div
-          class="col-md-6"
+          class="col-md-2"
         >
           <div
             class="item-legend text-white"
@@ -689,20 +693,11 @@ Object {
             </div>
           </div>
         </div>
-      </div>
-      <div
-        class="row g-0 justify-content-center"
-      >
         <div
-          class="col-md-6"
+          class="col-md-2"
         >
-          <h5
-            class="text-center text-white"
-          >
-            Slide to see swapped elements on each step
-          </h5>
           <label
-            class="mb-4 btn btn-outline-success"
+            class="w-100 btn btn-outline-primary"
             id="toggle-check"
           >
             <input
@@ -717,11 +712,19 @@ Object {
             </span>
           </label>
           <button
-            class="mb-4 mx-1 btn btn-outline-primary"
+            class="w-100 mt-2 btn btn-outline-primary"
             type="button"
           >
             Algorithm Logs
           </button>
+        </div>
+      </div>
+      <div
+        class="row g-0 justify-content-center mt-3"
+      >
+        <div
+          class="col-md-6"
+        >
           <div
             class="rc-slider rc-slider-horizontal"
           >
@@ -747,6 +750,11 @@ Object {
               tabindex="0"
             />
           </div>
+          <h5
+            class="text-center text-success fw-bold mt-2"
+          >
+            Slide to see swapped elements on each step
+          </h5>
         </div>
       </div>
     </div>

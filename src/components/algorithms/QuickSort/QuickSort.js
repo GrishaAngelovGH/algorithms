@@ -4,8 +4,9 @@ import Button from 'react-bootstrap/Button'
 import ToggleButton from 'react-bootstrap/ToggleButton'
 
 import Legend from '../../Legend'
-import StepsLog from './StepsLog'
+import StepsLog from '../../StepsLog'
 import Slider from '../../Slider'
+import AlgorithmSteps from './AlgorithmSteps'
 import WaveBackground from '../../WaveBackground'
 
 /*
@@ -21,7 +22,7 @@ import WaveBackground from '../../WaveBackground'
 
 const QuickSort = () => {
     const [step, setStep] = useState(0)
-    const [checked, setChecked] = useState(false)
+    const [showAllSteps, setShowAllSteps] = useState(false)
     const [showLogs, setShowLogs] = useState(false)
 
     const array = [5, 1, 3, 2, 4]
@@ -85,10 +86,10 @@ const QuickSort = () => {
         setStep(value)
     }
 
-    const handleToggle = ({ currentTarget }) => {
-        setStep(currentTarget.checked ? steps : 0)
+    const handleToggle = ({ target: { checked } }) => {
+        setStep(checked ? steps : 0)
 
-        setChecked(currentTarget.checked)
+        setShowAllSteps(checked)
     }
 
     const handleLogsOpen = () => {
@@ -106,10 +107,10 @@ const QuickSort = () => {
             <h1 className='text-center text-white'>Quick Sort</h1>
 
             {
-                Object.values(elements).map((element, i) => {
+                elements.map((row, i) => {
 
-                    // last array is for the final result
-                    if (i === Object.values(elements).length - 1) {
+                    // the last array contains the final result
+                    if (i === elements.length - 1) {
                         return (
                             <div
                                 key={i}
@@ -118,7 +119,7 @@ const QuickSort = () => {
                                 <h3 className='text-white'>Final Result</h3>
 
                                 {
-                                    Object.values(element).map((v, j) => (
+                                    row.map((v, j) => (
                                         <div key={j} className='col-md-1 mx-1 bg-success rounded'>
                                             {v}
                                         </div>
@@ -134,14 +135,14 @@ const QuickSort = () => {
                             className='row g-0 justify-content-center text-center p-1 text-white fw-bold'
                         >
                             {
-                                Object.values(element).map((v, k) => {
+                                row.map((v, k) => {
                                     // skip coloring of first row of elements
                                     if (i > 0) {
                                         const isSwapped = swappedElements[i - 1].includes(v)
 
                                         // color all elements in yellow if toggle button is clicked
                                         // otherwise color elements in yellow on each step
-                                        const bgClass = !checked ?
+                                        const bgClass = !showAllSteps ?
                                             (isSwapped && step === i ? 'bg-warning' : 'bg-success') :
                                             (isSwapped ? 'bg-warning' : 'bg-success')
 
@@ -164,8 +165,8 @@ const QuickSort = () => {
                 })
             }
 
-            <div className='row g-0 justify-content-center'>
-                <div className='col-md-6'>
+            <div className='row g-0 justify-content-center align-items-center text-center'>
+                <div className='col-md-2'>
                     <Legend
                         items={[
                             { color: '#198754', title: 'Regular element' },
@@ -173,41 +174,51 @@ const QuickSort = () => {
                         ]}
                     />
                 </div>
-            </div>
-
-            <div className='row g-0 justify-content-center'>
-                <div className='col-md-6'>
-                    <h5 className='text-center text-white'>
-                        Slide to see swapped elements on each step
-                    </h5>
-
+                <div className='col-md-2'>
                     <ToggleButton
-                        className='mb-4'
+                        className='w-100'
                         id='toggle-check'
                         type='checkbox'
-                        variant='outline-success'
-                        checked={checked}
+                        variant='outline-primary'
+                        checked={showAllSteps}
                         onChange={handleToggle}
                     >
                         <span className='mx-1'>Show All</span>
                     </ToggleButton>
 
                     <Button
-                        className='mb-4 mx-1'
+                        className='w-100 mt-2'
                         variant='outline-primary'
                         onClick={handleLogsOpen}
                     >
                         Algorithm Logs
                     </Button>
+                </div>
+            </div>
 
+            <div className='row g-0 justify-content-center mt-3'>
+                <div className='col-md-6'>
                     <Slider
                         max={steps}
                         value={step}
-                        disabled={checked}
+                        disabled={showAllSteps}
                         onChange={handleSlideChange}
                     />
 
-                    {showLogs && (<StepsLog onClose={handleLogsClose} />)}
+                    <h5 className='text-center text-success fw-bold mt-2'>
+                        Slide to see swapped elements on each step
+                    </h5>
+
+                    {
+                        showLogs && (
+                            <StepsLog
+                                title={'Quick Sort Steps'}
+                                onClose={handleLogsClose}
+                            >
+                                <AlgorithmSteps />
+                            </StepsLog>
+                        )
+                    }
                 </div>
             </div>
         </WaveBackground>
