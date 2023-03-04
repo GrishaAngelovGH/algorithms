@@ -9,8 +9,8 @@ import { render } from '@testing-library/react'
 import { ProSidebarProvider, Menu } from 'react-pro-sidebar'
 import Sidebar, { SubMenuWrapper } from './Sidebar'
 
-test('should render component', () => {
-    const container = render(
+test('should render Sidebar component', () => {
+    const view = render(
         <Router>
             <Routes>
                 <Route
@@ -25,10 +25,10 @@ test('should render component', () => {
         </Router>
     )
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })
 
-test('should render component', () => {
+test('should render SubMenu component', () => {
     const subMenu = {
         subMenuTitle: 'SubMenuTitle',
         open: false,
@@ -37,7 +37,7 @@ test('should render component', () => {
         ]
     }
 
-    const container = render(
+    const view = render(
         <Router>
             <Routes>
                 <Route
@@ -58,5 +58,5 @@ test('should render component', () => {
         </Router>
     )
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

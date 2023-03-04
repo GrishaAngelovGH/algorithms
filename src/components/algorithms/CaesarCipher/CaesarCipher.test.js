@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import CaesarCipher from './CaesarCipher'
 
-test('should render component', () => {
-    const container = render(<CaesarCipher />)
+test('should render CaesarCipher component', () => {
+    const view = render(<CaesarCipher />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

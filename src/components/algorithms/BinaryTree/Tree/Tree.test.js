@@ -7,9 +7,9 @@ jest.mock('react-d3-tree', () => {
     return () => (<div></div>)
 })
 
-test('should render component', () => {
+test('should render Tree component', () => {
     const ref = React.createRef()
-    const container = render(<Tree ref={ref} values={[1, 2, 3, 4, 5, 6]} />)
+    const view = render(<Tree ref={ref} values={[1, 2, 3, 4, 5, 6]} />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render component 1`] = `
+exports[`should render Sidebar component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -515,7 +515,7 @@ Object {
 }
 `;
 
-exports[`should render component 2`] = `
+exports[`should render SubMenu component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>

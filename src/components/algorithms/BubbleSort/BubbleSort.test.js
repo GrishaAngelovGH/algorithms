@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import BubbleSort from './BubbleSort'
 
-test('should render component', () => {
-    const container = render(<BubbleSort />)
+test('should render BubbleSort component', () => {
+    const view = render(<BubbleSort />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

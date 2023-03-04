@@ -4,11 +4,11 @@ import { ProSidebarProvider } from 'react-pro-sidebar'
 import App from './App'
 
 test('should render component', () => {
-  const container = render(
+  const view = render(
     <ProSidebarProvider>
       <App />
     </ProSidebarProvider>
   )
 
-  expect(container).toMatchSnapshot()
+  expect(view).toMatchSnapshot()
 })

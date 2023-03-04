@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import Legend from './Legend'
 
-test('should render component', () => {
-    const container = render(
+test('should render Legend component', () => {
+    const view = render(
         <Legend
             items={[
                 { color: '#198754', title: 'Regular element' },
@@ -12,5 +12,5 @@ test('should render component', () => {
         />
     )
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

@@ -2,12 +2,12 @@ import { render } from '@testing-library/react'
 
 import AlgorithmDescription from './AlgorithmDescription'
 
-test('should render component', () => {
-    const container = render(
+test('should render AlgorithmDescription component', () => {
+    const view = render(
         <AlgorithmDescription>
             Description of algorithm
         </AlgorithmDescription>
     )
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

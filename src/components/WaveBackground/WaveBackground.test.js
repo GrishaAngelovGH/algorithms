@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import WaveBackground from './WaveBackground'
 
-test('should render component', () => {
-    const container = render(<WaveBackground />)
+test('should render WaveBackground component', () => {
+    const view = render(<WaveBackground />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })
