@@ -15,11 +15,4 @@ Front-end project implementing various algorithms with step-by-step visualizatio
 
 ## The front-end project is using the following technologies:
 
-* Initial structure is created with **create-react-app**
-* Integrated **react 18**
-* Integrated **react-router v6**
-* Integrated **bootstrap 5**
-* Integrated **react-bootstrap**
-* Integrated **react-d3-tree**
-* Integrated **rc-slider**
-* Integrated **react-pro-sidebar**
+<img src="https://img.shields.io/badge/create--react--app-%23563D7C.svg?style=flat&logo=create-react-app&color=white" height="30"> <img src="https://img.shields.io/badge/React.JS-%23563D7C.svg?style=flat&logo=react&color=white" height="30"> <img src="https://img.shields.io/badge/React_Router%20v6-CA4245?style=flat&logo=react-router&color=white&logoColor=red" height="30"> <img src="https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&color=white&logoColor=purple" height="30"> <img src="https://img.shields.io/badge/react--bootstrap-blue.svg?style=flat&logo=react&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/react--d3--tree-311C87?style=flat&logo=d3.js&color=white" height="30"> <img src="https://img.shields.io/badge/rc--slider-311C87?style=flat&color=white" height="30"> <img src="https://img.shields.io/badge/react--pro--sidebar-311C87?style=flat&color=white" height="30">
