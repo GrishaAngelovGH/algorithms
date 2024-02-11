@@ -51,5 +51,8 @@
     "transformIgnorePatterns": [
       "<rootDir>/node_modules/(?!d3|rc)"
     ]
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
