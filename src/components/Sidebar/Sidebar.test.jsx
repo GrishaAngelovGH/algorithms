@@ -6,7 +6,7 @@ import {
 
 import { render } from '@testing-library/react'
 
-import { ProSidebarProvider, Menu } from 'react-pro-sidebar'
+import { Menu } from 'react-pro-sidebar'
 import Sidebar, { SubMenuWrapper } from './Sidebar'
 
 test('should render Sidebar component', () => {
@@ -16,9 +16,7 @@ test('should render Sidebar component', () => {
 				<Route
 					path='/'
 					element={(
-						<ProSidebarProvider>
-							<Sidebar />
-						</ProSidebarProvider>
+						<Sidebar />
 					)}
 				/>
 			</Routes>
@@ -43,15 +41,13 @@ test('should render SubMenu component', () => {
 				<Route
 					path='/'
 					element={(
-						<ProSidebarProvider>
-							<Menu>
-								<SubMenuWrapper
-									open={subMenu.open}
-									menuItems={subMenu.menuItems}
-									subMenuTitle={subMenu.subMenuTitle}
-								/>
-							</Menu>
-						</ProSidebarProvider>
+						<Menu>
+							<SubMenuWrapper
+								open={subMenu.open}
+								menuItems={subMenu.menuItems}
+								subMenuTitle={subMenu.subMenuTitle}
+							/>
+						</Menu>
 					)}
 				/>
 			</Routes>

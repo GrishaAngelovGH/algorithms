@@ -3,12 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.css'
-import { ProSidebarProvider } from 'react-pro-sidebar'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ProSidebarProvider>
-      <App />
-    </ProSidebarProvider>
+    <App />
   </StrictMode>,
 )

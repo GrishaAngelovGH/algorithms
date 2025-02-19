@@ -52,7 +52,6 @@ exports[`should render Sidebar component 1`] = `
                   class="ps-submenu-content ps-open css-nx2aea"
                   data-testid="ps-submenu-content-test-id"
                   open=""
-                  style="overflow: hidden; height: 0px;"
                 >
                   <ul
                     class="css-ewdv3l"
@@ -98,7 +97,6 @@ exports[`should render Sidebar component 1`] = `
                 <div
                   class="ps-submenu-content css-18unl23"
                   data-testid="ps-submenu-content-test-id"
-                  style="overflow: hidden; height: 0px;"
                 >
                   <ul
                     class="css-ewdv3l"
@@ -144,7 +142,6 @@ exports[`should render Sidebar component 1`] = `
                 <div
                   class="ps-submenu-content css-18unl23"
                   data-testid="ps-submenu-content-test-id"
-                  style="overflow: hidden; height: 0px;"
                 >
                   <ul
                     class="css-ewdv3l"
@@ -183,7 +180,6 @@ exports[`should render Sidebar component 1`] = `
                 <div
                   class="ps-submenu-content css-18unl23"
                   data-testid="ps-submenu-content-test-id"
-                  style="overflow: hidden; height: 0px;"
                 >
                   <ul
                     class="css-ewdv3l"
@@ -222,7 +218,6 @@ exports[`should render Sidebar component 1`] = `
                 <div
                   class="ps-submenu-content css-18unl23"
                   data-testid="ps-submenu-content-test-id"
-                  style="overflow: hidden; height: 0px;"
                 >
                   <ul
                     class="css-ewdv3l"
@@ -291,7 +286,6 @@ exports[`should render Sidebar component 1`] = `
                 class="ps-submenu-content ps-open css-nx2aea"
                 data-testid="ps-submenu-content-test-id"
                 open=""
-                style="overflow: hidden; height: 0px;"
               >
                 <ul
                   class="css-ewdv3l"
@@ -337,7 +331,6 @@ exports[`should render Sidebar component 1`] = `
               <div
                 class="ps-submenu-content css-18unl23"
                 data-testid="ps-submenu-content-test-id"
-                style="overflow: hidden; height: 0px;"
               >
                 <ul
                   class="css-ewdv3l"
@@ -383,7 +376,6 @@ exports[`should render Sidebar component 1`] = `
               <div
                 class="ps-submenu-content css-18unl23"
                 data-testid="ps-submenu-content-test-id"
-                style="overflow: hidden; height: 0px;"
               >
                 <ul
                   class="css-ewdv3l"
@@ -422,7 +414,6 @@ exports[`should render Sidebar component 1`] = `
               <div
                 class="ps-submenu-content css-18unl23"
                 data-testid="ps-submenu-content-test-id"
-                style="overflow: hidden; height: 0px;"
               >
                 <ul
                   class="css-ewdv3l"
@@ -461,7 +452,6 @@ exports[`should render Sidebar component 1`] = `
               <div
                 class="ps-submenu-content css-18unl23"
                 data-testid="ps-submenu-content-test-id"
-                style="overflow: hidden; height: 0px;"
               >
                 <ul
                   class="css-ewdv3l"
