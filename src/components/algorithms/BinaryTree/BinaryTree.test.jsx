@@ -4,13 +4,13 @@ import { vi } from 'vitest'
 import BinaryTree from './BinaryTree'
 
 vi.mock('react-d3-tree', () => {
-    return {
-        default: () => (<div></div>)
-    }
+	return {
+		default: () => (<div></div>)
+	}
 })
 
 test('should render BinaryTree component', () => {
-    const view = render(<BinaryTree />)
+	const view = render(<BinaryTree />)
 
-    expect(view).toMatchSnapshot()
+	expect(view).toMatchSnapshot()
 })
