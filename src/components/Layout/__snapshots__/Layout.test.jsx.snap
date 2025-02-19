@@ -1,40 +1,25 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render StepsLog component 1`] = `
-Object {
+exports[`should render Layout component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        aria-labelledby="offcanvasLabel"
-        class="offcanvas offcanvas-end show"
-        id="offcanvas"
-        tabindex="-1"
+        class="row g-0 p-3"
       >
         <div
-          class="offcanvas-header bg-primary text-white"
+          class="col-md-3 col-lg-2"
         >
-          <h5
-            class="offcanvas-title"
-            id="offcanvasLabel"
-          >
-            Steps Title
-          </h5>
-          <button
-            aria-label="Close"
-            class="btn-close bg-light"
-            data-bs-dismiss="offcanvas"
-            type="button"
-          />
+          <div>
+            sidebar
+          </div>
         </div>
         <div
-          class="offcanvas-body"
+          class="col-md-9 col-lg-10"
         >
           <div>
-            Step 1
-          </div>
-          <div>
-            Step 2
+            content
           </div>
         </div>
       </div>
@@ -42,35 +27,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      aria-labelledby="offcanvasLabel"
-      class="offcanvas offcanvas-end show"
-      id="offcanvas"
-      tabindex="-1"
+      class="row g-0 p-3"
     >
       <div
-        class="offcanvas-header bg-primary text-white"
+        class="col-md-3 col-lg-2"
       >
-        <h5
-          class="offcanvas-title"
-          id="offcanvasLabel"
-        >
-          Steps Title
-        </h5>
-        <button
-          aria-label="Close"
-          class="btn-close bg-light"
-          data-bs-dismiss="offcanvas"
-          type="button"
-        />
+        <div>
+          sidebar
+        </div>
       </div>
       <div
-        class="offcanvas-body"
+        class="col-md-9 col-lg-10"
       >
         <div>
-          Step 1
-        </div>
-        <div>
-          Step 2
+          content
         </div>
       </div>
     </div>

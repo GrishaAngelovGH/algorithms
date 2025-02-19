@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -12,7 +12,7 @@ Object {
           class="col-md-3 col-lg-2"
         >
           <aside
-            class="ps-sidebar-root css-1qqt2yo"
+            class="ps-sidebar-root css-1gjb6qj"
             data-testid="ps-sidebar-root-test-id"
             style="z-index: 100;"
             width="230px"
@@ -33,19 +33,20 @@ Object {
                   class="css-ewdv3l"
                 >
                   <li
-                    class="ps-menuitem-root ps-submenu-root ps-open css-1642kfo"
+                    class="ps-menuitem-root ps-submenu-root ps-open css-16jesut"
                   >
                     <a
-                      class="ps-menu-button css-1bdadyq"
+                      class="ps-menu-button ps-open"
                       data-testid="ps-menu-button-test-id"
+                      tabindex="0"
                     >
                       <span
-                        class="ps-menu-label css-12w9als"
+                        class="ps-menu-label ps-open css-12w9als"
                       >
                         Searching
                       </span>
                       <span
-                        class="ps-submenu-expand-icon css-1cuxlhl"
+                        class="ps-submenu-expand-icon ps-open css-1cuxlhl"
                       >
                         <span
                           class="css-jn69v9"
@@ -54,24 +55,25 @@ Object {
                       </span>
                     </a>
                     <div
-                      class="ps-submenu-content css-edu7i6"
+                      class="ps-submenu-content ps-open css-nx2aea"
                       data-testid="ps-submenu-content-test-id"
                       open=""
+                      style="overflow: hidden; height: 0px;"
                     >
                       <ul
                         class="css-ewdv3l"
                       >
                         <a
                           class="d-block text-center p-1 text-decoration-none"
+                          data-discover="true"
                           href="#/linear-search"
-                          level="1"
                         >
                           Linear Search
                         </a>
                         <a
                           class="d-block text-center p-1 text-decoration-none"
+                          data-discover="true"
                           href="#/binary-search"
-                          level="1"
                         >
                           Binary Search
                         </a>
@@ -79,11 +81,12 @@ Object {
                     </div>
                   </li>
                   <li
-                    class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                    class="ps-menuitem-root ps-submenu-root css-16jesut"
                   >
                     <a
-                      class="ps-menu-button css-1bdadyq"
+                      class="ps-menu-button"
                       data-testid="ps-menu-button-test-id"
+                      tabindex="0"
                     >
                       <span
                         class="ps-menu-label css-12w9als"
@@ -99,23 +102,24 @@ Object {
                       </span>
                     </a>
                     <div
-                      class="ps-submenu-content css-z5rm24"
+                      class="ps-submenu-content css-18unl23"
                       data-testid="ps-submenu-content-test-id"
+                      style="overflow: hidden; height: 0px;"
                     >
                       <ul
                         class="css-ewdv3l"
                       >
                         <a
                           class="d-block text-center p-1 text-decoration-none"
+                          data-discover="true"
                           href="#/bubble-sort"
-                          level="1"
                         >
                           Bubble Sort
                         </a>
                         <a
                           class="d-block text-center p-1 text-decoration-none"
+                          data-discover="true"
                           href="#/quick-sort"
-                          level="1"
                         >
                           Quick Sort
                         </a>
@@ -123,11 +127,12 @@ Object {
                     </div>
                   </li>
                   <li
-                    class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                    class="ps-menuitem-root ps-submenu-root css-16jesut"
                   >
                     <a
-                      class="ps-menu-button css-1bdadyq"
+                      class="ps-menu-button"
                       data-testid="ps-menu-button-test-id"
+                      tabindex="0"
                     >
                       <span
                         class="ps-menu-label css-12w9als"
@@ -143,16 +148,17 @@ Object {
                       </span>
                     </a>
                     <div
-                      class="ps-submenu-content css-z5rm24"
+                      class="ps-submenu-content css-18unl23"
                       data-testid="ps-submenu-content-test-id"
+                      style="overflow: hidden; height: 0px;"
                     >
                       <ul
                         class="css-ewdv3l"
                       >
                         <a
                           class="d-block text-center p-1 text-decoration-none"
+                          data-discover="true"
                           href="#/binary-tree"
-                          level="1"
                         >
                           BFS and DFS Traversal
                         </a>
@@ -160,11 +166,12 @@ Object {
                     </div>
                   </li>
                   <li
-                    class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                    class="ps-menuitem-root ps-submenu-root css-16jesut"
                   >
                     <a
-                      class="ps-menu-button css-1bdadyq"
+                      class="ps-menu-button"
                       data-testid="ps-menu-button-test-id"
+                      tabindex="0"
                     >
                       <span
                         class="ps-menu-label css-12w9als"
@@ -180,16 +187,17 @@ Object {
                       </span>
                     </a>
                     <div
-                      class="ps-submenu-content css-z5rm24"
+                      class="ps-submenu-content css-18unl23"
                       data-testid="ps-submenu-content-test-id"
+                      style="overflow: hidden; height: 0px;"
                     >
                       <ul
                         class="css-ewdv3l"
                       >
                         <a
                           class="d-block text-center p-1 text-decoration-none"
+                          data-discover="true"
                           href="#/caesar-cipher"
-                          level="1"
                         >
                           Caesar Cipher
                         </a>
@@ -197,11 +205,12 @@ Object {
                     </div>
                   </li>
                   <li
-                    class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                    class="ps-menuitem-root ps-submenu-root css-16jesut"
                   >
                     <a
-                      class="ps-menu-button css-1bdadyq"
+                      class="ps-menu-button"
                       data-testid="ps-menu-button-test-id"
+                      tabindex="0"
                     >
                       <span
                         class="ps-menu-label css-12w9als"
@@ -217,16 +226,17 @@ Object {
                       </span>
                     </a>
                     <div
-                      class="ps-submenu-content css-z5rm24"
+                      class="ps-submenu-content css-18unl23"
                       data-testid="ps-submenu-content-test-id"
+                      style="overflow: hidden; height: 0px;"
                     >
                       <ul
                         class="css-ewdv3l"
                       >
                         <a
                           class="d-block text-center p-1 text-decoration-none"
+                          data-discover="true"
                           href="#/flood-fill"
-                          level="1"
                         >
                           Flood Fill
                         </a>
@@ -347,7 +357,7 @@ Object {
         class="col-md-3 col-lg-2"
       >
         <aside
-          class="ps-sidebar-root css-1qqt2yo"
+          class="ps-sidebar-root css-1gjb6qj"
           data-testid="ps-sidebar-root-test-id"
           style="z-index: 100;"
           width="230px"
@@ -368,19 +378,20 @@ Object {
                 class="css-ewdv3l"
               >
                 <li
-                  class="ps-menuitem-root ps-submenu-root ps-open css-1642kfo"
+                  class="ps-menuitem-root ps-submenu-root ps-open css-16jesut"
                 >
                   <a
-                    class="ps-menu-button css-1bdadyq"
+                    class="ps-menu-button ps-open"
                     data-testid="ps-menu-button-test-id"
+                    tabindex="0"
                   >
                     <span
-                      class="ps-menu-label css-12w9als"
+                      class="ps-menu-label ps-open css-12w9als"
                     >
                       Searching
                     </span>
                     <span
-                      class="ps-submenu-expand-icon css-1cuxlhl"
+                      class="ps-submenu-expand-icon ps-open css-1cuxlhl"
                     >
                       <span
                         class="css-jn69v9"
@@ -389,24 +400,25 @@ Object {
                     </span>
                   </a>
                   <div
-                    class="ps-submenu-content css-edu7i6"
+                    class="ps-submenu-content ps-open css-nx2aea"
                     data-testid="ps-submenu-content-test-id"
                     open=""
+                    style="overflow: hidden; height: 0px;"
                   >
                     <ul
                       class="css-ewdv3l"
                     >
                       <a
                         class="d-block text-center p-1 text-decoration-none"
+                        data-discover="true"
                         href="#/linear-search"
-                        level="1"
                       >
                         Linear Search
                       </a>
                       <a
                         class="d-block text-center p-1 text-decoration-none"
+                        data-discover="true"
                         href="#/binary-search"
-                        level="1"
                       >
                         Binary Search
                       </a>
@@ -414,11 +426,12 @@ Object {
                   </div>
                 </li>
                 <li
-                  class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                  class="ps-menuitem-root ps-submenu-root css-16jesut"
                 >
                   <a
-                    class="ps-menu-button css-1bdadyq"
+                    class="ps-menu-button"
                     data-testid="ps-menu-button-test-id"
+                    tabindex="0"
                   >
                     <span
                       class="ps-menu-label css-12w9als"
@@ -434,23 +447,24 @@ Object {
                     </span>
                   </a>
                   <div
-                    class="ps-submenu-content css-z5rm24"
+                    class="ps-submenu-content css-18unl23"
                     data-testid="ps-submenu-content-test-id"
+                    style="overflow: hidden; height: 0px;"
                   >
                     <ul
                       class="css-ewdv3l"
                     >
                       <a
                         class="d-block text-center p-1 text-decoration-none"
+                        data-discover="true"
                         href="#/bubble-sort"
-                        level="1"
                       >
                         Bubble Sort
                       </a>
                       <a
                         class="d-block text-center p-1 text-decoration-none"
+                        data-discover="true"
                         href="#/quick-sort"
-                        level="1"
                       >
                         Quick Sort
                       </a>
@@ -458,11 +472,12 @@ Object {
                   </div>
                 </li>
                 <li
-                  class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                  class="ps-menuitem-root ps-submenu-root css-16jesut"
                 >
                   <a
-                    class="ps-menu-button css-1bdadyq"
+                    class="ps-menu-button"
                     data-testid="ps-menu-button-test-id"
+                    tabindex="0"
                   >
                     <span
                       class="ps-menu-label css-12w9als"
@@ -478,16 +493,17 @@ Object {
                     </span>
                   </a>
                   <div
-                    class="ps-submenu-content css-z5rm24"
+                    class="ps-submenu-content css-18unl23"
                     data-testid="ps-submenu-content-test-id"
+                    style="overflow: hidden; height: 0px;"
                   >
                     <ul
                       class="css-ewdv3l"
                     >
                       <a
                         class="d-block text-center p-1 text-decoration-none"
+                        data-discover="true"
                         href="#/binary-tree"
-                        level="1"
                       >
                         BFS and DFS Traversal
                       </a>
@@ -495,11 +511,12 @@ Object {
                   </div>
                 </li>
                 <li
-                  class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                  class="ps-menuitem-root ps-submenu-root css-16jesut"
                 >
                   <a
-                    class="ps-menu-button css-1bdadyq"
+                    class="ps-menu-button"
                     data-testid="ps-menu-button-test-id"
+                    tabindex="0"
                   >
                     <span
                       class="ps-menu-label css-12w9als"
@@ -515,16 +532,17 @@ Object {
                     </span>
                   </a>
                   <div
-                    class="ps-submenu-content css-z5rm24"
+                    class="ps-submenu-content css-18unl23"
                     data-testid="ps-submenu-content-test-id"
+                    style="overflow: hidden; height: 0px;"
                   >
                     <ul
                       class="css-ewdv3l"
                     >
                       <a
                         class="d-block text-center p-1 text-decoration-none"
+                        data-discover="true"
                         href="#/caesar-cipher"
-                        level="1"
                       >
                         Caesar Cipher
                       </a>
@@ -532,11 +550,12 @@ Object {
                   </div>
                 </li>
                 <li
-                  class="ps-menuitem-root ps-submenu-root css-1642kfo"
+                  class="ps-menuitem-root ps-submenu-root css-16jesut"
                 >
                   <a
-                    class="ps-menu-button css-1bdadyq"
+                    class="ps-menu-button"
                     data-testid="ps-menu-button-test-id"
+                    tabindex="0"
                   >
                     <span
                       class="ps-menu-label css-12w9als"
@@ -552,16 +571,17 @@ Object {
                     </span>
                   </a>
                   <div
-                    class="ps-submenu-content css-z5rm24"
+                    class="ps-submenu-content css-18unl23"
                     data-testid="ps-submenu-content-test-id"
+                    style="overflow: hidden; height: 0px;"
                   >
                     <ul
                       class="css-ewdv3l"
                     >
                       <a
                         class="d-block text-center p-1 text-decoration-none"
+                        data-discover="true"
                         href="#/flood-fill"
-                        level="1"
                       >
                         Flood Fill
                       </a>

@@ -1,9 +1,12 @@
 import { render } from '@testing-library/react'
+import { vi } from 'vitest'
 
 import BinaryTree from './BinaryTree'
 
-jest.mock('react-d3-tree', () => {
-    return () => (<div></div>)
+vi.mock('react-d3-tree', () => {
+    return {
+        default: () => (<div></div>)
+    }
 })
 
 test('should render BinaryTree component', () => {

@@ -1,69 +1,79 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render WaveBackground component 1`] = `
-Object {
+exports[`should render Legend component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="waveWrapper waveAnimation"
+        class="item-legend text-white"
       >
         <div
-          class="waveWrapperInner bgTop"
+          class="legend-title"
         >
-          <div
-            class="wave waveTop"
-          />
+          Legend
         </div>
         <div
-          class="waveWrapperInner bgMiddle"
+          class="legend-scale"
         >
-          <div
-            class="wave waveMiddle"
-          />
-        </div>
-        <div
-          class="waveWrapperInner bgBottom"
-        >
-          <div
-            class="wave waveBottom"
-          />
+          <ul
+            class="legend-labels"
+          >
+            <li
+              class="fw-bold"
+            >
+              <span
+                style="background: rgb(25, 135, 84);"
+              />
+              Regular element
+            </li>
+            <li
+              class="fw-bold"
+            >
+              <span
+                style="background: rgb(255, 193, 7);"
+              />
+              Swapped element
+            </li>
+          </ul>
         </div>
       </div>
-      <div
-        class="wave-content"
-      />
     </div>
   </body>,
   "container": <div>
     <div
-      class="waveWrapper waveAnimation"
+      class="item-legend text-white"
     >
       <div
-        class="waveWrapperInner bgTop"
+        class="legend-title"
       >
-        <div
-          class="wave waveTop"
-        />
+        Legend
       </div>
       <div
-        class="waveWrapperInner bgMiddle"
+        class="legend-scale"
       >
-        <div
-          class="wave waveMiddle"
-        />
-      </div>
-      <div
-        class="waveWrapperInner bgBottom"
-      >
-        <div
-          class="wave waveBottom"
-        />
+        <ul
+          class="legend-labels"
+        >
+          <li
+            class="fw-bold"
+          >
+            <span
+              style="background: rgb(25, 135, 84);"
+            />
+            Regular element
+          </li>
+          <li
+            class="fw-bold"
+          >
+            <span
+              style="background: rgb(255, 193, 7);"
+            />
+            Swapped element
+          </li>
+        </ul>
       </div>
     </div>
-    <div
-      class="wave-content"
-    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

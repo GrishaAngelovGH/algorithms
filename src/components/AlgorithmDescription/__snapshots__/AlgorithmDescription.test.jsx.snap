@@ -1,35 +1,63 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render TextArea component 1`] = `
-Object {
+exports[`should render AlgorithmDescription component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <form
-        action=""
-        class="paper"
-        method="get"
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        class="fade toast w-100 show"
+        role="alert"
       >
-        <textarea
-          class="text"
-          name="text"
-          placeholder="Enter text"
-        />
-      </form>
+        <div
+          class="toast-header text-bg-light"
+        >
+          <h5
+            class="m-0"
+          >
+            Algorithm Description
+          </h5>
+        </div>
+        <div
+          class="toast-body"
+        >
+          <h5
+            class="m-0"
+          >
+            Description of algorithm
+          </h5>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <form
-      action=""
-      class="paper"
-      method="get"
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      class="fade toast w-100 show"
+      role="alert"
     >
-      <textarea
-        class="text"
-        name="text"
-        placeholder="Enter text"
-      />
-    </form>
+      <div
+        class="toast-header text-bg-light"
+      >
+        <h5
+          class="m-0"
+        >
+          Algorithm Description
+        </h5>
+      </div>
+      <div
+        class="toast-body"
+      >
+        <h5
+          class="m-0"
+        >
+          Description of algorithm
+        </h5>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

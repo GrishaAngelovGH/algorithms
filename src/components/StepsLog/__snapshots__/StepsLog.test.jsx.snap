@@ -1,84 +1,78 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render Tree component 1`] = `
-Object {
+exports[`should render StepsLog component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="binary-tree"
-        id="treeWrapper"
+        aria-labelledby="offcanvasLabel"
+        class="offcanvas offcanvas-end show"
+        id="offcanvas"
+        tabindex="-1"
       >
-        <div />
-        <span
-          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        <div
+          class="offcanvas-header bg-primary text-white"
         >
-          1
-        </span>
-        <span
-          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+          <h5
+            class="offcanvas-title"
+            id="offcanvasLabel"
+          >
+            Steps Title
+          </h5>
+          <button
+            aria-label="Close"
+            class="btn-close bg-light"
+            data-bs-dismiss="offcanvas"
+            type="button"
+          />
+        </div>
+        <div
+          class="offcanvas-body"
         >
-          2
-        </span>
-        <span
-          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-        >
-          3
-        </span>
-        <span
-          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-        >
-          4
-        </span>
-        <span
-          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-        >
-          5
-        </span>
-        <span
-          class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-        >
-          6
-        </span>
+          <div>
+            Step 1
+          </div>
+          <div>
+            Step 2
+          </div>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="binary-tree"
-      id="treeWrapper"
+      aria-labelledby="offcanvasLabel"
+      class="offcanvas offcanvas-end show"
+      id="offcanvas"
+      tabindex="-1"
     >
-      <div />
-      <span
-        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+      <div
+        class="offcanvas-header bg-primary text-white"
       >
-        1
-      </span>
-      <span
-        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
+        <h5
+          class="offcanvas-title"
+          id="offcanvasLabel"
+        >
+          Steps Title
+        </h5>
+        <button
+          aria-label="Close"
+          class="btn-close bg-light"
+          data-bs-dismiss="offcanvas"
+          type="button"
+        />
+      </div>
+      <div
+        class="offcanvas-body"
       >
-        2
-      </span>
-      <span
-        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-      >
-        3
-      </span>
-      <span
-        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-      >
-        4
-      </span>
-      <span
-        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-      >
-        5
-      </span>
-      <span
-        class="badge rounded-pill bg-light text-success mx-2 fs-5 shadow"
-      >
-        6
-      </span>
+        <div>
+          Step 1
+        </div>
+        <div>
+          Step 2
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],

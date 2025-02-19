@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render LinearSearch component 1`] = `
-Object {
+exports[`should render BinaryTree component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -42,57 +42,42 @@ Object {
             <h3
               class="text-white"
             >
-              Linear Search Algorithm
+              Binary Tree Traversal Algorithms
             </h3>
+            <div
+              class="mb-2 btn-group btn-group-lg"
+              role="group"
+            >
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                Breadth First Search
+              </button>
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                Depth First Search
+              </button>
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                Reset
+              </button>
+            </div>
             <div
               class="row justify-content-center"
             >
               <div
-                class="col-md-6"
+                class="col-md-12"
               >
                 <div
-                  class="mb-3 input-group"
+                  class="binary-tree"
+                  id="treeWrapper"
                 >
-                  <input
-                    class="form-control"
-                    disabled=""
-                    value=""
-                  />
-                  <button
-                    class="btn btn-primary"
-                    type="button"
-                  >
-                    Random Fill
-                  </button>
-                </div>
-                <div
-                  class="mb-3 input-group"
-                >
-                  <input
-                    class="form-control"
-                    min="1"
-                    placeholder="Enter search criteria"
-                    type="number"
-                    value=""
-                  />
-                </div>
-                <div
-                  class="row justify-content-center"
-                />
-                <div
-                  class="row justify-content-center p-3"
-                >
-                  <div
-                    class="col-md-2"
-                  >
-                    <button
-                      class="btn btn-primary"
-                      disabled=""
-                      type="button"
-                    >
-                      Step
-                    </button>
-                  </div>
+                  <div />
                 </div>
               </div>
             </div>
@@ -139,57 +124,42 @@ Object {
           <h3
             class="text-white"
           >
-            Linear Search Algorithm
+            Binary Tree Traversal Algorithms
           </h3>
+          <div
+            class="mb-2 btn-group btn-group-lg"
+            role="group"
+          >
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              Breadth First Search
+            </button>
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              Depth First Search
+            </button>
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              Reset
+            </button>
+          </div>
           <div
             class="row justify-content-center"
           >
             <div
-              class="col-md-6"
+              class="col-md-12"
             >
               <div
-                class="mb-3 input-group"
+                class="binary-tree"
+                id="treeWrapper"
               >
-                <input
-                  class="form-control"
-                  disabled=""
-                  value=""
-                />
-                <button
-                  class="btn btn-primary"
-                  type="button"
-                >
-                  Random Fill
-                </button>
-              </div>
-              <div
-                class="mb-3 input-group"
-              >
-                <input
-                  class="form-control"
-                  min="1"
-                  placeholder="Enter search criteria"
-                  type="number"
-                  value=""
-                />
-              </div>
-              <div
-                class="row justify-content-center"
-              />
-              <div
-                class="row justify-content-center p-3"
-              >
-                <div
-                  class="col-md-2"
-                >
-                  <button
-                    class="btn btn-primary"
-                    disabled=""
-                    type="button"
-                  >
-                    Step
-                  </button>
-                </div>
+                <div />
               </div>
             </div>
           </div>

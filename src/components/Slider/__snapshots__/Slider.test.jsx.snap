@@ -1,62 +1,64 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render AlgorithmDescription component 1`] = `
-Object {
+exports[`should render Slider component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        aria-atomic="true"
-        aria-live="assertive"
-        class="fade toast w-100 show"
-        role="alert"
+        class="rc-slider rc-slider-horizontal"
       >
         <div
-          class="toast-header text-bg-light"
-        >
-          <h5
-            class="m-0"
-          >
-            Algorithm Description
-          </h5>
-        </div>
+          class="rc-slider-rail"
+          style="height: 2px;"
+        />
         <div
-          class="toast-body"
-        >
-          <h5
-            class="m-0"
-          >
-            Description of algorithm
-          </h5>
-        </div>
+          class="rc-slider-track"
+          style="left: 0%; width: 0%; background: green;"
+        />
+        <div
+          class="rc-slider-step"
+        />
+        <div
+          aria-disabled="false"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="0"
+          class="rc-slider-handle"
+          role="slider"
+          style="left: 0%; transform: translateX(-50%); height: 28px; width: 28px; margin-left: -14px; margin-top: -14px; background-color: green; border: 0px; opacity: 1;"
+          tabindex="0"
+        />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      aria-atomic="true"
-      aria-live="assertive"
-      class="fade toast w-100 show"
-      role="alert"
+      class="rc-slider rc-slider-horizontal"
     >
       <div
-        class="toast-header text-bg-light"
-      >
-        <h5
-          class="m-0"
-        >
-          Algorithm Description
-        </h5>
-      </div>
+        class="rc-slider-rail"
+        style="height: 2px;"
+      />
       <div
-        class="toast-body"
-      >
-        <h5
-          class="m-0"
-        >
-          Description of algorithm
-        </h5>
-      </div>
+        class="rc-slider-track"
+        style="left: 0%; width: 0%; background: green;"
+      />
+      <div
+        class="rc-slider-step"
+      />
+      <div
+        aria-disabled="false"
+        aria-orientation="horizontal"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="0"
+        class="rc-slider-handle"
+        role="slider"
+        style="left: 0%; transform: translateX(-50%); height: 28px; width: 28px; margin-left: -14px; margin-top: -14px; background-color: green; border: 0px; opacity: 1;"
+        tabindex="0"
+      />
     </div>
   </div>,
   "debug": [Function],
