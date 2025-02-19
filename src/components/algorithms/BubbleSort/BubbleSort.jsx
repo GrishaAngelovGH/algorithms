@@ -131,6 +131,7 @@ const BubbleSort = () => {
 				</div>
 				<div className='col-md-2'>
 					<ToggleButton
+						id='show-all'
 						className='w-100'
 						type='checkbox'
 						variant='outline-primary'

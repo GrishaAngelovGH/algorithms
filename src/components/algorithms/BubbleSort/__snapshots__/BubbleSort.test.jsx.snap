@@ -321,10 +321,12 @@ exports[`should render BubbleSort component 1`] = `
             <input
               autocomplete="off"
               class="btn-check"
+              id="show-all"
               type="checkbox"
             />
             <label
               class="w-100 btn btn-outline-primary"
+              for="show-all"
               tabindex="0"
             >
               <span
@@ -700,10 +702,12 @@ exports[`should render BubbleSort component 1`] = `
           <input
             autocomplete="off"
             class="btn-check"
+            id="show-all"
             type="checkbox"
           />
           <label
             class="w-100 btn btn-outline-primary"
+            for="show-all"
             tabindex="0"
           >
             <span
